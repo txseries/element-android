@@ -1210,7 +1210,7 @@ class RoomDetailFragment @Inject constructor(
             if (state.tombstoneEvent == null) {
                 if (state.canSendMessage) {
                     views.composerLayout.visibility = View.VISIBLE
-                    views.composerLayout.setRoomEncrypted(summary.isEncrypted, summary.roomEncryptionTrustLevel)
+                    views.composerLayout.setRoomEncrypted(summary.isEncrypted)
                     views.notificationAreaView.render(NotificationAreaView.State.Hidden)
                 } else {
                     views.composerLayout.visibility = View.GONE

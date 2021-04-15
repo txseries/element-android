@@ -130,25 +130,16 @@
         app:layout_constraintTop_toTopOf="@+id/sendButton"
         tools:ignore="MissingPrefix" />
 
-    <im.vector.app.core.ui.views.ShieldImageView
-        android:id="@+id/composerShieldImageView"
-        android:layout_width="16dp"
-        android:layout_height="16dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/sendButton"
-        app:layout_constraintEnd_toStartOf="@+id/composerEditText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/sendButton" />
-
     <FrameLayout
         android:id="@+id/composerEditTextOuterBorder"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendButton"
-        app:layout_constraintStart_toEndOf="@id/composerShieldImageView"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier" />
 
     <im.vector.app.features.home.room.detail.composer.ComposerEditText

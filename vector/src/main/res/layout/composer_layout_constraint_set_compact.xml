@@ -117,20 +117,10 @@
         android:contentDescription="@string/option_send_files"
         android:src="@drawable/ic_attachment"
         app:layout_constraintBottom_toBottomOf="@id/sendButton"
-        app:layout_constraintEnd_toStartOf="@+id/composerShieldImageView"
+        app:layout_constraintEnd_toStartOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/sendButton"
         tools:ignore="MissingPrefix" />
-
-    <im.vector.app.core.ui.views.ShieldImageView
-        android:id="@+id/composerShieldImageView"
-        android:layout_width="16dp"
-        android:layout_height="16dp"
-        app:layout_constraintBottom_toBottomOf="@id/sendButton"
-        app:layout_constraintEnd_toStartOf="@+id/composerEditText"
-        app:layout_constraintStart_toEndOf="@+id/attachmentButton"
-        app:layout_constraintTop_toTopOf="@id/sendButton"
-        tools:visibility="visible" />
 
     <FrameLayout
         android:id="@+id/composerEditTextOuterBorder"
@@ -140,7 +130,7 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendButton"
-        app:layout_constraintStart_toEndOf="@id/composerShieldImageView"
+        app:layout_constraintStart_toEndOf="@id/attachmentButton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <im.vector.app.features.home.room.detail.composer.ComposerEditText
