@@ -145,36 +145,48 @@
         android:layout_height="16dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/sendButton"
-        app:layout_constraintEnd_toStartOf="@+id/composerEditText"
+        app:layout_constraintEnd_toStartOf="@+id/composerEditTextContainer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/sendButton" />
 
-    <im.vector.app.features.home.room.detail.composer.ComposerEditText
-        android:id="@+id/composerEditText"
-        style="@style/ComposerEditTextStyle"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/composerEditTextContainer"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:nextFocusLeft="@id/composerEditText"
-        android:nextFocusUp="@id/composerEditText"
+        android:background="@drawable/bg_composer"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/composerEmojiButton"
-        app:layout_constraintStart_toEndOf="@+id/composerShieldImageView"
-        app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier"
-        tools:text="@tools:sample/lorem/random" />
-
-    <ImageButton
-        android:id="@+id/composerEmojiButton"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_margin="1dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:contentDescription="@string/a11y_open_emoji_picker"
-        android:src="@drawable/ic_insert_emoji"
-        app:layout_constraintBottom_toBottomOf="@id/sendButton"
         app:layout_constraintEnd_toStartOf="@+id/sendButton"
-        app:layout_constraintStart_toEndOf="@id/composerEditText"
-        app:layout_constraintTop_toTopOf="@id/sendButton"
-        app:layout_goneMarginEnd="8dp" />
+        app:layout_constraintStart_toEndOf="@+id/composerShieldImageView"
+        app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier">
+
+        <im.vector.app.features.home.room.detail.composer.ComposerEditText
+            android:id="@+id/composerEditText"
+            style="@style/ComposerEditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/room_message_placeholder_not_encrypted"
+            android:nextFocusLeft="@id/composerEditText"
+            android:nextFocusUp="@id/composerEditText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/composerEmojiButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@tools:sample/lorem/random" />
+
+        <ImageButton
+            android:id="@+id/composerEmojiButton"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_margin="1dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/a11y_open_emoji_picker"
+            android:src="@drawable/ic_insert_emoji"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/composerEditText"
+            app:layout_goneMarginEnd="8dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageButton
         android:id="@+id/sendButton"
