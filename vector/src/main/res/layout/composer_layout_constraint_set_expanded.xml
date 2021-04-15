@@ -134,13 +134,14 @@
         android:id="@+id/composerEditTextOuterBorder"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier" />
+        app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier"
+        app:layout_goneMarginEnd="12dp" />
 
     <im.vector.app.features.home.room.detail.composer.ComposerEditText
         android:id="@+id/composerEditText"
@@ -153,7 +154,7 @@
         app:layout_constraintEnd_toStartOf="@+id/composerEmojiButton"
         app:layout_constraintStart_toStartOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier"
-        tools:text="@tools:sample/lorem/random" />
+        tools:text="te" />
 
     <ImageButton
         android:id="@+id/composerEmojiButton"
@@ -167,6 +168,7 @@
         app:layout_constraintEnd_toEndOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintStart_toEndOf="@id/composerEditText"
         app:layout_constraintTop_toTopOf="@id/sendButton"
+        app:layout_goneMarginBottom="52dp"
         app:layout_goneMarginEnd="8dp" />
 
     <ImageButton
@@ -178,10 +180,12 @@
         android:contentDescription="@string/send"
         android:scaleType="center"
         android:src="@drawable/ic_send"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier"
         app:layout_constraintVertical_bias="1"
-        tools:ignore="MissingPrefix" />
+        tools:ignore="MissingPrefix"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

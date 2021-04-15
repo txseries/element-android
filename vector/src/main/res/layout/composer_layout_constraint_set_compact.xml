@@ -120,6 +120,7 @@
         app:layout_constraintEnd_toStartOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/sendButton"
+        app:layout_goneMarginBottom="57dp"
         tools:ignore="MissingPrefix" />
 
     <FrameLayout
@@ -131,7 +132,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendButton"
         app:layout_constraintStart_toEndOf="@id/attachmentButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="12dp" />
 
     <im.vector.app.features.home.room.detail.composer.ComposerEditText
         android:id="@+id/composerEditText"
@@ -155,10 +157,10 @@
         android:background="?android:attr/selectableItemBackground"
         android:contentDescription="@string/a11y_open_emoji_picker"
         android:src="@drawable/ic_insert_emoji"
-        app:layout_constraintBottom_toBottomOf="@id/sendButton"
+        app:layout_constraintBottom_toBottomOf="@id/attachmentButton"
         app:layout_constraintEnd_toEndOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintStart_toEndOf="@id/composerEditText"
-        app:layout_constraintTop_toTopOf="@id/sendButton"
+        app:layout_constraintTop_toTopOf="@id/attachmentButton"
         app:layout_goneMarginEnd="8dp" />
 
     <ImageButton
@@ -170,8 +172,10 @@
         android:contentDescription="@string/send"
         android:scaleType="center"
         android:src="@drawable/ic_send"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingPrefix" />
+        tools:ignore="MissingPrefix"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

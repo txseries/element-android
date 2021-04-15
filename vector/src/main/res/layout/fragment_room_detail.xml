@@ -173,6 +173,7 @@
         android:id="@+id/composerLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:minHeight="56dp"
         android:background="?riotx_background"
         android:transitionName="composer"
         app:layout_constraintBottom_toBottomOf="parent"
