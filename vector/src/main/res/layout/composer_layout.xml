@@ -25,13 +25,6 @@
         android:background="?riotx_bottom_nav_background_border_color"
         tools:ignore="MissingConstraints" />
 
-    <View
-        android:id="@+id/related_message_background_bottom_separator"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="?riotx_bottom_nav_background_border_color"
-        tools:ignore="MissingConstraints" />
-
     <ImageView
         android:id="@+id/composerRelatedMessageAvatar"
         android:layout_width="0dp"
