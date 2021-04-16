@@ -1148,6 +1148,10 @@ class RoomDetailFragment @Inject constructor(
             override fun onRichContentSelected(contentUri: Uri): Boolean {
                 return sendUri(contentUri)
             }
+
+            override fun onTextBlankStateChanged(isBlank: Boolean) {
+                // No op
+            }
         }
     }
 

@@ -80,6 +80,10 @@
         <!-- specify shared element enter and exit transitions -->
         <item name="android:windowSharedElementEnterTransition">@transition/image_preview_transition</item>
         <item name="android:windowSharedElementExitTransition">@transition/image_preview_transition</item>
+
+
+        <item name="riotx_message_composer_attachment_button_color">@color/riotx_message_composer_attachment_button_color_black</item>
+        <item name="riotx_message_composer_emoji_button_color">@color/riotx_message_composer_emoji_button_color_black</item>
     </style>
 
     <style name="AppTheme.Black" parent="AppTheme.Base.Black" />

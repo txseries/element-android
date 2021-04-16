@@ -181,6 +181,10 @@
 
         <!-- chat effect -->
         <item name="vctr_chat_effect_snow_background">@android:color/transparent</item>
+
+
+        <item name="riotx_message_composer_attachment_button_color">@color/riotx_message_composer_attachment_button_color_dark</item>
+        <item name="riotx_message_composer_emoji_button_color">@color/riotx_message_composer_emoji_button_color_dark</item>
     </style>
 
     <style name="AppTheme.Dark" parent="AppTheme.Base.Dark" />

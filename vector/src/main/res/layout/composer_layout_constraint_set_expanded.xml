@@ -125,6 +125,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:contentDescription="@string/option_send_files"
         android:src="@drawable/ic_attachment"
+        android:tint="?riotx_message_composer_attachment_button_color"
         app:layout_constraintBottom_toBottomOf="@+id/sendButton"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/sendButton"
@@ -135,8 +136,8 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendButton"
         app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +155,7 @@
         app:layout_constraintEnd_toStartOf="@+id/composerEmojiButton"
         app:layout_constraintStart_toStartOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintTop_toBottomOf="@id/composer_preview_barrier"
-        tools:text="te" />
+        tools:text="@tools:sample/lorem/random" />
 
     <ImageButton
         android:id="@+id/composerEmojiButton"
@@ -164,6 +165,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:contentDescription="@string/a11y_open_emoji_picker"
         android:src="@drawable/ic_insert_emoji"
+        android:tint="?riotx_message_composer_emoji_button_color"
         app:layout_constraintBottom_toBottomOf="@id/sendButton"
         app:layout_constraintEnd_toEndOf="@+id/composerEditTextOuterBorder"
         app:layout_constraintStart_toEndOf="@id/composerEditText"
