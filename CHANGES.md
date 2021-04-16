@@ -5,7 +5,7 @@ Features ✨:
  -
 
 Improvements 🙌:
- -
+ - Update Message Composer design (#2974)
 
 Bugfix 🐛:
  - Message states cosmetic changes (#3007)
