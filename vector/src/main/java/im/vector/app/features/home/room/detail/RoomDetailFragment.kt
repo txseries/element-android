@@ -543,15 +543,17 @@ class RoomDetailFragment @Inject constructor(
                 .fromRootView(views.rootConstraintLayout)
                 .setKeyboardAnimationStyle(R.style.emoji_fade_animation_style)
                 .setOnEmojiPopupShownListener {
-                    views.composerLayout.views.composerEmojiButton.let {
-                        it.setImageResource(R.drawable.ic_keyboard)
-                        it.contentDescription = getString(R.string.a11y_close_emoji_picker)
+                    views.composerLayout.views.composerEmojiButton.apply {
+                        contentDescription = getString(R.string.a11y_close_emoji_picker)
+                        setImageResource(R.drawable.ic_keyboard)
+                        setColorFilter(ThemeUtils.getColor(requireContext(), R.attr.riotx_message_composer_keyboard_button_color))
                     }
                 }
                 .setOnEmojiPopupDismissListener {
-                    views.composerLayout.views.composerEmojiButton.let {
-                        it.setImageResource(R.drawable.ic_insert_emoji)
-                        it.contentDescription = getString(R.string.a11y_open_emoji_picker)
+                    views.composerLayout.views.composerEmojiButton.apply {
+                        contentDescription = getString(R.string.a11y_open_emoji_picker)
+                        setImageResource(R.drawable.ic_insert_emoji)
+                        setColorFilter(ThemeUtils.getColor(requireContext(), R.attr.riotx_message_composer_emoji_button_color))
                     }
                 }
                 .build(views.composerLayout.views.composerEditText)
@@ -1165,6 +1167,7 @@ class RoomDetailFragment @Inject constructor(
             views.composerLayout.collapse(true)
             lockSendButton = true
             roomDetailViewModel.handle(RoomDetailAction.SendMessage(text, vectorPreferences.isMarkdownEnabled()))
+            emojiPopup.dismiss()
         }
     }
 

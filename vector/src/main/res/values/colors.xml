@@ -320,4 +320,9 @@
     <color name="riotx_message_composer_emoji_button_color_dark">#FFA9B2BC</color>
     <color name="riotx_message_composer_emoji_button_color_black">#FFA9B2BC</color>
 
+    <attr name="riotx_message_composer_keyboard_button_color" format="color" />
+    <color name="riotx_message_composer_keyboard_button_color_light">#C1C6CD</color>
+    <color name="riotx_message_composer_keyboard_button_color_dark">#8E99A4</color>
+    <color name="riotx_message_composer_keyboard_button_color_black">#8E99A4</color>
+
 </resources>
