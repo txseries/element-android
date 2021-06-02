@@ -40,10 +40,10 @@ fun createUCropWithDefaultSettings(colorProvider: ColorProvider,
                                 // Disable freestyle crop, usability was not easy
                                 // setFreeStyleCropEnabled(true)
                                 // Color used for toolbar icon and text
-                                setToolbarColor(colorProvider.getColorFromAttribute(R.attr.riotx_background))
+                                setToolbarColor(colorProvider.getColorFromAttribute(android.R.attr.colorBackground))
                                 setToolbarWidgetColor(colorProvider.getColorFromAttribute(R.attr.vctr_toolbar_primary_text_color))
                                 // Background
-                                setRootViewBackgroundColor(colorProvider.getColorFromAttribute(R.attr.riotx_background))
+                                setRootViewBackgroundColor(colorProvider.getColorFromAttribute(android.R.attr.colorBackground))
                                 // Status bar color (pb in dark mode, icon of the status bar are dark)
                                 setStatusBarColor(colorProvider.getColorFromAttribute(R.attr.riotx_header_panel_background))
                                 // Known issue: there is still orange color used by the lib

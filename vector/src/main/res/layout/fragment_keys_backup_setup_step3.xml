@@ -5,7 +5,7 @@
     android:id="@+id/keys_backup_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?riotx_background"
+    android:background="?android:colorBackground"
     tools:context=".features.crypto.keysbackup.setup.KeysBackupSetupStep3Fragment">
 
     <LinearLayout

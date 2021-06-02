@@ -54,8 +54,8 @@
     <color name="tab_bar_selected_background_color_dark">@color/riotx_android_secondary_dark</color>
 
     <attr name="tab_bar_unselected_background_color" format="color" />
-    <color name="tab_bar_unselected_background_color_light">@color/riotx_background_light</color>
-    <color name="tab_bar_unselected_background_color_dark">@color/riotx_background_dark</color>
+    <color name="tab_bar_unselected_background_color_light">@color/element_background_light</color>
+    <color name="tab_bar_unselected_background_color_dark">@color/element_background_dark</color>
 
     <!-- Hint Colors -->
     <color name="primary_hint_text_color_light">#FFFFFF</color>
@@ -155,11 +155,6 @@
     <!-- Palette: format fo naming:
       'riotx_<name in the palette snake case>_<theme>'
       -->
-
-    <attr name="riotx_background" format="color" />
-    <color name="riotx_background_light">#FFFFFFFF</color>
-    <color name="riotx_background_dark">#FF15191E</color>
-    <color name="riotx_background_black">#FF000000</color>
 
     <attr name="vctr_home_drawer_header_background" format="color" />
     <color name="vctr_home_drawer_header_background_light">#FFF5F7FA</color>

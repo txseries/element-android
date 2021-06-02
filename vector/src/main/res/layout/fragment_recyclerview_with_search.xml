@@ -5,13 +5,13 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?riotx_background">
+    android:background="?android:colorBackground">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/roomList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="?riotx_background"
+        android:background="?android:colorBackground"
         android:overScrollMode="always"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:listitem="@layout/item_profile_matrix_item" />

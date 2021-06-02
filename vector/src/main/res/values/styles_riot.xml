@@ -8,11 +8,11 @@
         <!-- main text -->
         <item name="titleTextAppearance">@style/Vector.Toolbar.Title</item>
         <item name="subtitleTextAppearance">@style/Vector.Toolbar.SubTitle</item>
-        <item name="android:background">?riotx_background</item>
+        <item name="android:background">?android:colorBackground</item>
     </style>
 
     <style name="ActionModeTheme" parent="Widget.AppCompat.ActionMode">
-        <item name="background">?riotx_background</item>
+        <item name="background">?android:colorBackground</item>
         <item name="titleTextStyle">@style/Vector.Toolbar.Title</item>
         <item name="subtitleTextStyle">@style/Vector.Toolbar.SubTitle</item>
         <item name="actionMenuTextColor">?colorOnPrimary</item>
@@ -37,7 +37,7 @@
     </style>
 
     <style name="VectorAppBarLayoutStyle" parent="Widget.Design.AppBarLayout">
-        <item name="android:background">?riotx_background</item>
+        <item name="android:background">?android:colorBackground</item>
     </style>
 
     <!-- Alert Dialog: Button color are not colorAccent by default -->

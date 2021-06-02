@@ -2,7 +2,7 @@
 <resources>
 
     <style name="PinCodeScreenStyle" >
-        <item name="android:background">?riotx_background</item>
+        <item name="android:background">?android:colorBackground</item>
     </style>
 
     <style name="PinCodeKeyButtonStyle">

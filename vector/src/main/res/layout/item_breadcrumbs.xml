@@ -5,7 +5,7 @@
     android:id="@+id/breadcrumbsRoot"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="?riotx_background"
+    android:background="?android:colorBackground"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground">

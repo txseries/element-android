@@ -88,7 +88,7 @@
             android:focusable="true"
             android:padding="16dp"
             android:src="@drawable/ic_microphone_off"
-            app:backgroundTint="?attr/riotx_background"
+            app:backgroundTint="?android:colorBackground"
             app:tint="?attr/riotx_text_primary"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
@@ -116,7 +116,7 @@
             android:focusable="true"
             android:padding="16dp"
             android:src="@drawable/ic_call_videocam_off_default"
-            app:backgroundTint="?attr/riotx_background"
+            app:backgroundTint="?android:colorBackground"
             app:tint="?attr/riotx_text_primary"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
