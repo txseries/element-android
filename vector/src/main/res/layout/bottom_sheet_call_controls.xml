@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?riotx_bottom_sheet_background"
+    android:background="?colorSurface"
     android:orientation="vertical">
 
     <im.vector.app.core.ui.views.BottomSheetActionButton

@@ -16,3 +16,6 @@ This file can help Element Android forks maintainers to migrate their code.
 - riotx_destructive_accent -> ?colorError
 - vector_error_color -> ?colorError
 - vector_warning_color -> ?colorError
+
+- riotx_bottom_sheet_background -> ?colorSurface
+- riotx_alerter_background -> ?colorSurface

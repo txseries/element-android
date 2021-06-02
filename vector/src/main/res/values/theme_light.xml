@@ -27,7 +27,6 @@
         <item name="riotx_room_active_widgets_banner_text">@color/riotx_room_active_widgets_banner_text_light</item>
         <item name="riotx_reaction_background_off">@color/riotx_reaction_background_off_light</item>
         <item name="riotx_reaction_background_on">@color/riotx_reaction_background_on_light</item>
-        <item name="riotx_alerter_background">@color/riotx_alerter_background_light</item>
         <item name="riotx_bottom_nav_icon_color">@color/riotx_bottom_nav_icon_color_light</item>
 
         <!-- Material color: Note: this block should be the same in all theme because it references only common colors and ?riotx attributes -->
@@ -40,12 +39,10 @@
         <item name="colorOnSecondary">@color/white</item>
         <item name="colorError">@color/element_alert_light</item>
         <item name="colorOnError">@color/palette_white</item>
-        <!--item name="colorSurface">#FFFFFF</item>
-        <item name="colorOnSurface">#212121</item-->
+        <item name="colorSurface">@color/element_system_light</item>
+        <item name="colorOnSurface">?riotx_text_primary</item>
         <item name="android:colorBackground">@color/element_background_light</item>
         <item name="colorOnBackground">?riotx_text_primary</item>
-
-        <item name="riotx_bottom_sheet_background">@color/riotx_bottom_sheet_background_light</item>
 
         <!-- Keep color accent for legacy widget-->
         <item name="colorAccent">@color/element_accent_light</item>
