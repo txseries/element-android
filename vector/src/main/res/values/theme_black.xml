@@ -38,8 +38,6 @@
         <item name="colorSecondary">@color/element_accent_dark</item>
         <item name="colorSecondaryVariant">@color/primary_color_dark_black</item>
         <item name="colorOnSecondary">@color/white</item>
-        <item name="colorError">@color/element_alert_dark</item>
-        <item name="colorOnError">@color/palette_white</item>
         <!--item name="colorSurface">#FFFFFF</item>
         <item name="colorOnSurface">#212121</item-->
         <item name="android:colorBackground">@color/element_background_black</item>
