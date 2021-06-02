@@ -22,7 +22,7 @@
         android:layout_width="@dimen/button_max_width"
         android:layout_marginTop="16dp"
         android:visibility="gone"
-        app:backgroundTint="@color/vector_warning_color"
+        app:backgroundTint="?colorError"
         tools:text="@string/keys_backup_settings_delete_backup_button"
         tools:visibility="visible" />
 

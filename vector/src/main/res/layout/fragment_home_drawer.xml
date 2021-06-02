@@ -27,7 +27,7 @@
             android:src="@drawable/ic_settings_x"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:tint="@color/riotx_accent"
+            app:tint="?colorPrimary"
             tools:ignore="MissingPrefix" />
 
         <ImageView
@@ -92,7 +92,7 @@
             app:iconGravity="textStart"
             app:iconPadding="0dp"
             app:iconSize="20dp"
-            app:iconTint="@color/riotx_accent"
+            app:iconTint="?colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/homeDrawerUsernameView" />
 

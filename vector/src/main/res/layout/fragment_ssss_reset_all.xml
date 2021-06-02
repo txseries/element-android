@@ -64,7 +64,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="@string/secure_backup_reset_if_you_reset_all"
-            android:textColor="@color/riotx_destructive_accent"
+            android:textColor="?colorError"
             android:textSize="15sp"
             android:textStyle="bold"
             android:tint="?riot_primary_text_color"

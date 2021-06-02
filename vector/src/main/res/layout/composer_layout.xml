@@ -81,7 +81,7 @@
         android:background="?android:attr/selectableItemBackground"
         android:contentDescription="@string/cancel"
         android:src="@drawable/ic_close_round"
-        app:tint="@color/riotx_notice"
+        app:tint="?colorError"
         tools:ignore="MissingConstraints,MissingPrefix" />
 
     <androidx.constraintlayout.widget.Barrier

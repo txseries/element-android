@@ -112,7 +112,7 @@ class ViewEditHistoryEpoxyController @Inject constructor(
                                 diff_match_patch.Operation.DELETE -> {
                                     span {
                                         text = it.text.replace("\n", " ")
-                                        textColor = colorProvider.getColor(R.color.vector_error_color)
+                                        textColor = colorProvider.getColorFromAttribute(R.attr.colorError)
                                         textDecorationLine = "line-through"
                                     }
                                 }

@@ -44,7 +44,7 @@
         app:layout_constraintCircle="@+id/itemEditableAvatarImageContainer"
         app:layout_constraintCircleAngle="45"
         app:layout_constraintCircleRadius="48dp"
-        app:tint="@color/riotx_destructive_accent"
+        app:tint="?colorError"
         tools:ignore="MissingConstraints,MissingPrefix"
         tools:visibility="visible" />
 

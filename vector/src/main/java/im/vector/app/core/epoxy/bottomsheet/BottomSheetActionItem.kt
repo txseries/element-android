@@ -79,7 +79,7 @@ abstract class BottomSheetActionItem : VectorEpoxyModel<BottomSheetActionItem.Ho
         }
         holder.startSpace.isVisible = subMenuItem
         val tintColor = if (destructive) {
-            ContextCompat.getColor(holder.view.context, R.color.riotx_notice)
+            ThemeUtils.getColor(holder.view.context, R.attr.colorError)
         } else {
             ThemeUtils.getColor(holder.view.context, R.attr.riotx_text_secondary)
         }

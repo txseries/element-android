@@ -100,7 +100,7 @@ class RoomDirectoryPickerController @Inject constructor(
             settingsInformationItem {
                 id("form_notice")
                 message(host.stringProvider.getString(R.string.directory_add_a_new_server_prompt))
-                colorProvider(host.colorProvider)
+                textColor(host.colorProvider.getColor(R.color.vector_info_color))
             }
             verticalMarginItem {
                 id("form_space_2")
@@ -155,7 +155,7 @@ class RoomDirectoryPickerController @Inject constructor(
             genericButtonItem {
                 id("add")
                 text(host.stringProvider.getString(R.string.directory_add_a_new_server))
-                textColor(host.colorProvider.getColor(R.color.riotx_accent))
+                textColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 buttonClickAction(View.OnClickListener {
                     host.callback?.onStartEnterServer()
                 })

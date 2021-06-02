@@ -18,7 +18,7 @@
             android:layout_margin="4dp"
             android:importantForAccessibility="no"
             android:src="@drawable/ic_poll"
-            app:tint="@color/riotx_accent"
+            app:tint="?colorPrimary"
             tools:ignore="MissingPrefix" />
 
         <TextView

@@ -160,15 +160,15 @@ class SpaceSettingsMenuBottomSheet : VectorBaseBottomSheetDialogFragment<BottomS
                     ?: return@debouncedClicks
             val warningMessage: CharSequence? = if (spaceSummary.otherMemberIds.isEmpty()) {
                 span(getString(R.string.space_leave_prompt_msg_only_you)) {
-                    textColor = colorProvider.getColor(R.color.riotx_destructive_accent)
+                    textColor = colorProvider.getColorFromAttribute(R.attr.colorError)
                 }
             } else if (isLastAdmin) {
                 span(getString(R.string.space_leave_prompt_msg_as_admin)) {
-                    textColor = colorProvider.getColor(R.color.riotx_destructive_accent)
+                    textColor = colorProvider.getColorFromAttribute(R.attr.colorError)
                 }
             } else if (!spaceSummary.isPublic) {
                 span(getString(R.string.space_leave_prompt_msg_private)) {
-                    textColor = colorProvider.getColor(R.color.riotx_destructive_accent)
+                    textColor = colorProvider.getColorFromAttribute(R.attr.colorError)
                 }
             } else {
                 null

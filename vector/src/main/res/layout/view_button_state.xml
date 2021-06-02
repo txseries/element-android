@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/global_retry"
-        android:textColor="@color/riotx_notice"
+        android:textColor="?colorError"
         tools:layout_gravity="center_horizontal"
         tools:layout_marginTop="160dp" />
 

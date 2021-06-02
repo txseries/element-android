@@ -48,7 +48,7 @@ fun createUCropWithDefaultSettings(colorProvider: ColorProvider,
                                 setStatusBarColor(colorProvider.getColorFromAttribute(R.attr.riotx_header_panel_background))
                                 // Known issue: there is still orange color used by the lib
                                 // https://github.com/Yalantis/uCrop/issues/602
-                                setActiveControlsWidgetColor(colorProvider.getColor(R.color.riotx_accent))
+                                setActiveControlsWidgetColor(colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                                 // Hide the logo (does not work)
                                 setLogoColor(Color.TRANSPARENT)
                             }

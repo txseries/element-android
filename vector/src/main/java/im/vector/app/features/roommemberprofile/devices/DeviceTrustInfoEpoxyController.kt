@@ -103,9 +103,9 @@ class DeviceTrustInfoEpoxyController @Inject constructor(private val stringProvi
                 bottomSheetVerificationActionItem {
                     id("verify")
                     title(host.stringProvider.getString(R.string.cross_signing_verify_by_emoji))
-                    titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     iconRes(R.drawable.ic_arrow_right)
-                    iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     listener {
                         host.interactionListener?.onVerifyManually(it)
                     }

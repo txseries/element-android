@@ -70,9 +70,9 @@ class VerificationQrScannedByOtherController @Inject constructor(
         bottomSheetVerificationActionItem {
             id("deny")
             title(host.stringProvider.getString(R.string.qr_code_scanned_by_other_no))
-            titleColor(host.colorProvider.getColor(R.color.vector_error_color))
+            titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
             iconRes(R.drawable.ic_check_off)
-            iconColor(host.colorProvider.getColor(R.color.vector_error_color))
+            iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
             listener { host.listener?.onUserDeniesQrCodeScanned() }
         }
 
@@ -83,9 +83,9 @@ class VerificationQrScannedByOtherController @Inject constructor(
         bottomSheetVerificationActionItem {
             id("confirm")
             title(host.stringProvider.getString(R.string.qr_code_scanned_by_other_yes))
-            titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+            titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             iconRes(R.drawable.ic_check_on)
-            iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+            iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             listener { host.listener?.onUserConfirmsQrCodeScanned() }
         }
     }

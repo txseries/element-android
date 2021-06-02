@@ -3,9 +3,7 @@
 
     <!-- Error colors -->
     <color name="vector_success_color">#70BF56</color>
-    <color name="vector_warning_color">#ff4b55</color>
     <color name="vector_warning_color_2">#ff812d</color>
-    <color name="vector_error_color">#ff4b55</color>
     <color name="vector_info_color">#2f9edb</color>
 
     <!-- main app colors -->
@@ -113,23 +111,15 @@
         <!-- Source: https://zpl.io/aBKw9Mk -->
 
     <!-- Accents -->
-    <color name="riotx_accent">#FF0DBD8B</color>
-    <color name="riotx_accent_alpha25">#3F0DBD8B</color>
-
-
-    <color name="riotx_destructive_accent">#FFFF4B55</color>
-    <color name="riotx_destructive_accent_alpha12">#1EFF4B55</color>
     <color name="riotx_button_primary_accent_alpha12">#14368BD6</color>
 
 
-    <color name="riotx_positive_accent">#0DBD8B</color>
     <color name="riotx_disabled_accent">#C4C4C4</color>
     <color name="riotx_positive_accent_alpha12">#1E0DBD8B</color>
     <color name="riotx_button_disabled_alpha12">#1E61708B</color>
 
     <color name="bg_call_screen">#99000000</color>
 
-    <color name="riotx_notice">#FFFF4B55</color>
     <color name="riotx_notice_secondary">#FF61708B</color>
     <color name="riotx_notice_secondary_alpha12">#1E61708B</color>
 

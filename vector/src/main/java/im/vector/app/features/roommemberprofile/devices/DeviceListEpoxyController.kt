@@ -127,8 +127,8 @@ class DeviceListEpoxyController @Inject constructor(private val stringProvider: 
                                     )
                             )
                             valueColorInt(
-                                    host.colorProvider.getColor(
-                                            if (device.isVerified) R.color.riotx_positive_accent else R.color.riotx_destructive_accent
+                                    host.colorProvider.getColorFromAttribute(
+                                            if (device.isVerified) R.attr.colorPrimary else R.attr.colorError
                                     )
                             )
                             itemClickAction(View.OnClickListener {

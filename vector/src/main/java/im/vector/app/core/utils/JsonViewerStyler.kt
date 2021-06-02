@@ -22,7 +22,7 @@ import org.billcarsonfr.jsonviewer.JSonViewerStyleProvider
 
 fun createJSonViewerStyleProvider(colorProvider: ColorProvider): JSonViewerStyleProvider {
     return JSonViewerStyleProvider(
-            keyColor = colorProvider.getColor(R.color.riotx_accent),
+            keyColor = colorProvider.getColorFromAttribute(R.attr.colorPrimary),
             secondaryColor = colorProvider.getColorFromAttribute(R.attr.riotx_text_secondary),
             stringColor = colorProvider.getColorFromAttribute(R.attr.vctr_notice_text_color),
             baseColor = colorProvider.getColorFromAttribute(R.attr.riotx_text_primary),

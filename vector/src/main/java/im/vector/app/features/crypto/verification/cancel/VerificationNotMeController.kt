@@ -69,9 +69,9 @@ class VerificationNotMeController @Inject constructor(
         bottomSheetVerificationActionItem {
             id("settings")
             title(host.stringProvider.getString(R.string.settings))
-            titleColor(host.colorProvider.getColor(R.color.riotx_positive_accent))
+            titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             iconRes(R.drawable.ic_arrow_right)
-            iconColor(host.colorProvider.getColor(R.color.riotx_positive_accent))
+            iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             listener { host.listener?.onTapSettings() }
         }
     }

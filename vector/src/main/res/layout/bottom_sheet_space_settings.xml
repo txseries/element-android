@@ -136,7 +136,7 @@
         android:layout_height="wrap_content"
         app:actionTitle="@string/leave_space"
         app:leftIcon="@drawable/ic_room_actions_leave"
-        app:tint="@color/riotx_destructive_accent"
-        app:titleTextColor="@color/riotx_destructive_accent" />
+        app:tint="?colorError"
+        app:titleTextColor="?colorError" />
 
 </LinearLayout>

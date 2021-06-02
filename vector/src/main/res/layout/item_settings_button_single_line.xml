@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:drawableStart="@drawable/ic_notification_privacy_warning"
-        tools:drawableTint="@color/vector_error_color"
+        tools:drawableTint="?colorError"
         tools:text="foo@bar.test" />
 
     <Button

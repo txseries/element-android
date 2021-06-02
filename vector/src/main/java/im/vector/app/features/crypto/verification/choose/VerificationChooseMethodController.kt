@@ -65,9 +65,9 @@ class VerificationChooseMethodController @Inject constructor(
                 bottomSheetVerificationActionItem {
                     id("openCamera")
                     title(host.stringProvider.getString(R.string.verification_scan_their_code))
-                    titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     iconRes(R.drawable.ic_camera)
-                    iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     listener { host.listener?.openCamera() }
                 }
 
@@ -89,7 +89,7 @@ class VerificationChooseMethodController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("openEmoji")
                 title(host.stringProvider.getString(R.string.verification_no_scan_emoji_title))
-                titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 iconRes(R.drawable.ic_arrow_right)
                 iconColor(host.colorProvider.getColorFromAttribute(R.attr.riotx_text_primary))
                 listener { host.listener?.doVerifyBySas() }
@@ -104,7 +104,7 @@ class VerificationChooseMethodController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("wasnote")
                 title(host.stringProvider.getString(R.string.verify_new_session_was_not_me))
-                titleColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 subTitle(host.stringProvider.getString(R.string.verify_new_session_compromized))
                 iconRes(R.drawable.ic_arrow_right)
                 iconColor(host.colorProvider.getColorFromAttribute(R.attr.riotx_text_primary))

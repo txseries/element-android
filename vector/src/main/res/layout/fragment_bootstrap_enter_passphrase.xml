@@ -59,7 +59,7 @@
             android:text="@string/bootstrap_dont_reuse_pwd"
             android:textSize="12sp"
             app:drawableStartCompat="@drawable/ic_alert_triangle"
-            app:drawableTint="@color/riotx_destructive_accent" />
+            app:drawableTint="?colorError" />
 
     </com.google.android.material.textfield.TextInputLayout>
 

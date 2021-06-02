@@ -83,10 +83,8 @@ class NotificationTroubleshootRecyclerViewAdapter(val tests: ArrayList<Troublesh
                     troubleshootProgressBar.visibility = View.INVISIBLE
                     troubleshootStatusIcon.visibility = View.VISIBLE
                     troubleshootStatusIcon.setImageResource(R.drawable.unit_test_ko)
-
                     troubleshootStatusIcon.imageTintList = null
-
-                    troubleshootTestDescription.setTextColor(ContextCompat.getColor(context, R.color.riotx_notice))
+                    troubleshootTestDescription.setTextColor(ThemeUtils.getColor(context, R.attr.colorError))
                 }
                 TroubleshootTest.TestStatus.SUCCESS          -> {
                     troubleshootProgressBar.visibility = View.INVISIBLE

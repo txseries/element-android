@@ -102,7 +102,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintStart_toEndOf="parent"
-        app:tint="@color/riotx_notice"
+        app:tint="?colorError"
         tools:ignore="MissingPrefix"
         tools:visibility="visible" />
 

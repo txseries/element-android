@@ -92,9 +92,9 @@ class VerificationRequestController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("skip")
                 title(host.stringProvider.getString(R.string.skip))
-                titleColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 iconRes(R.drawable.ic_arrow_right)
-                iconColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 listener { host.listener?.onClickSkip() }
             }
         } else {
@@ -123,7 +123,7 @@ class VerificationRequestController @Inject constructor(
                     bottomSheetVerificationActionItem {
                         id("start")
                         title(host.stringProvider.getString(R.string.start_verification))
-                        titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                        titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                         subTitle(host.stringProvider.getString(R.string.verification_request_start_notice))
                         iconRes(R.drawable.ic_arrow_right)
                         iconColor(host.colorProvider.getColorFromAttribute(R.attr.riotx_text_primary))
@@ -162,7 +162,7 @@ class VerificationRequestController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("wasnote")
                 title(host.stringProvider.getString(R.string.verify_new_session_was_not_me))
-                titleColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 subTitle(host.stringProvider.getString(R.string.verify_new_session_compromized))
                 iconRes(R.drawable.ic_arrow_right)
                 iconColor(host.colorProvider.getColorFromAttribute(R.attr.riotx_text_primary))

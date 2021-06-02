@@ -67,7 +67,7 @@ abstract class CallTileTimelineItem : AbsBaseMessageItem<CallTileTimelineItem.Ho
             holder.acceptView.setOnClickListener {
                 attributes.callback?.onTimelineItemAction(RoomDetailAction.AcceptCall(callId = attributes.callId))
             }
-            holder.rejectView.setLeftDrawable(R.drawable.ic_call_hangup, R.color.riotx_notice)
+            holder.rejectView.setLeftDrawable(R.drawable.ic_call_hangup, R.attr.colorError)
             holder.rejectView.setOnClickListener {
                 attributes.callback?.onTimelineItemAction(RoomDetailAction.EndCall)
             }
@@ -76,17 +76,17 @@ abstract class CallTileTimelineItem : AbsBaseMessageItem<CallTileTimelineItem.Ho
                 CallKind.CONFERENCE -> {
                     holder.rejectView.setText(R.string.ignore)
                     holder.acceptView.setText(R.string.join)
-                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_audio_small, R.color.riotx_accent)
+                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_audio_small, R.attr.colorPrimary)
                 }
                 CallKind.AUDIO      -> {
                     holder.rejectView.setText(R.string.call_notification_reject)
                     holder.acceptView.setText(R.string.call_notification_answer)
-                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_audio_small, R.color.riotx_accent)
+                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_audio_small, R.attr.colorPrimary)
                 }
                 CallKind.VIDEO      -> {
                     holder.rejectView.setText(R.string.call_notification_reject)
                     holder.acceptView.setText(R.string.call_notification_answer)
-                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_video_small, R.color.riotx_accent)
+                    holder.acceptView.setLeftDrawable(R.drawable.ic_call_video_small, R.attr.colorPrimary)
                 }
                 else                -> {
                     Timber.w("Shouldn't be in that state")

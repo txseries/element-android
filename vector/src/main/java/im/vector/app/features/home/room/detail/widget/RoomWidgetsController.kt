@@ -55,7 +55,7 @@ class RoomWidgetsController @Inject constructor(
         genericButtonItem {
             id("addIntegration")
             text(host.stringProvider.getString(R.string.room_manage_integrations))
-            textColor(host.colorProvider.getColor(R.color.riotx_accent))
+            textColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             buttonClickAction(View.OnClickListener { host.listener?.didSelectManageWidgets() })
         }
     }

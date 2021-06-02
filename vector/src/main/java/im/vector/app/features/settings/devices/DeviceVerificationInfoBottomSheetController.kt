@@ -147,9 +147,9 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("completeSecurity")
                 title(host.stringProvider.getString(R.string.crosssigning_verify_this_session))
-                titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 iconRes(R.drawable.ic_arrow_right)
-                iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 listener {
                     host.callback?.onAction(DevicesAction.CompleteSecurity)
                 }
@@ -206,9 +206,9 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("verify${cryptoDeviceInfo.deviceId}")
                 title(host.stringProvider.getString(R.string.verification_verify_device))
-                titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 iconRes(R.drawable.ic_arrow_right)
-                iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 listener {
                     host.callback?.onAction(DevicesAction.VerifyMyDevice(cryptoDeviceInfo.deviceId))
                 }
@@ -224,9 +224,9 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
         bottomSheetVerificationActionItem {
             id("verify_text")
             title(host.stringProvider.getString(R.string.cross_signing_verify_by_text))
-            titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+            titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             iconRes(R.drawable.ic_arrow_right)
-            iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+            iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             listener {
                 host.callback?.onAction(DevicesAction.VerifyMyDeviceManually(cryptoDeviceInfo.deviceId))
             }
@@ -237,9 +237,9 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
         bottomSheetVerificationActionItem {
             id("verify_emoji")
             title(host.stringProvider.getString(R.string.cross_signing_verify_by_emoji))
-            titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+            titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             iconRes(R.drawable.ic_arrow_right)
-            iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+            iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
             listener {
                 host.callback?.onAction(DevicesAction.VerifyMyDevice(cryptoDeviceInfo.deviceId))
             }
@@ -257,9 +257,9 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("delete")
                 title(host.stringProvider.getString(R.string.settings_active_sessions_signout_device))
-                titleColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 iconRes(R.drawable.ic_arrow_right)
-                iconColor(host.colorProvider.getColor(R.color.riotx_destructive_accent))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 listener {
                     host.callback?.onAction(DevicesAction.Delete(deviceId))
                 }

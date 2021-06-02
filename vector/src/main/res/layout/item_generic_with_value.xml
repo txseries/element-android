@@ -38,7 +38,6 @@
         android:textColor="?riotx_text_primary"
         android:textSize="15sp"
         tools:text="Value"
-        tools:textColor="@color/riotx_positive_accent" />
-
+        tools:textColor="?colorPrimary" />
 
 </LinearLayout>

@@ -26,7 +26,6 @@ import android.text.style.UnderlineSpan
 import android.view.View
 import android.widget.TextView
 import androidx.annotation.AttrRes
-import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
@@ -95,9 +94,9 @@ fun TextView.setTextWithColoredPart(@StringRes fullTextRes: Int,
             }
 }
 
-fun TextView.setLeftDrawable(@DrawableRes iconRes: Int, @ColorRes tintColor: Int? = null) {
+fun TextView.setLeftDrawable(@DrawableRes iconRes: Int, @AttrRes tintColor: Int? = null) {
     val icon = if (tintColor != null) {
-        val tint = ContextCompat.getColor(context, tintColor)
+        val tint = ThemeUtils.getColor(context, tintColor)
         ContextCompat.getDrawable(context, iconRes)?.also {
             DrawableCompat.setTint(it.mutate(), tint)
         }

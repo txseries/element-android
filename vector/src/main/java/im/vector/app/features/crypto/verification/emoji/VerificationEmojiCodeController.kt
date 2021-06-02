@@ -140,9 +140,9 @@ class VerificationEmojiCodeController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("ko")
                 title(host.stringProvider.getString(R.string.verification_sas_do_not_match))
-                titleColor(host.colorProvider.getColor(R.color.vector_error_color))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 iconRes(R.drawable.ic_check_off)
-                iconColor(host.colorProvider.getColor(R.color.vector_error_color))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 listener { host.listener?.onDoNotMatchButtonTapped() }
             }
             dividerItem {
@@ -151,9 +151,9 @@ class VerificationEmojiCodeController @Inject constructor(
             bottomSheetVerificationActionItem {
                 id("ok")
                 title(host.stringProvider.getString(R.string.verification_sas_match))
-                titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 iconRes(R.drawable.ic_check_on)
-                iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                 listener { host.listener?.onMatchButtonTapped() }
             }
         }

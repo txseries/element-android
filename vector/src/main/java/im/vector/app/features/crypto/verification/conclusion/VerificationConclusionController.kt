@@ -94,9 +94,9 @@ class VerificationConclusionController @Inject constructor(
                 bottomSheetVerificationActionItem {
                     id("got_it")
                     title(host.stringProvider.getString(R.string.sas_got_it))
-                    titleColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    titleColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     iconRes(R.drawable.ic_arrow_right)
-                    iconColor(host.colorProvider.getColor(R.color.riotx_accent))
+                    iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                     listener { host.listener?.onButtonTapped() }
                 }
             }
