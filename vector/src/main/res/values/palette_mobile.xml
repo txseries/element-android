@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Alias to the palette colors
+      Source: https://www.figma.com/file/X4XTH9iS2KGJ2wFKDqkyed/Compound?node-id=1521%3A23026 -->
+
+    <color name="element_accent_light">@color/palette_element_green</color>
+    <color name="element_accent_dark">@color/palette_element_green</color>
+
+    <color name="element_alert_light">@color/palette_vermilion</color>
+    <color name="element_alert_dark">@color/palette_vermilion</color>
+
+    <color name="element_primary_content_light">@color/palette_black_900</color>
+    <color name="element_secondary_content_light">@color/palette_gray_200</color>
+    <color name="element_tertiary_content_light">@color/palette_gray_150</color>
+    <color name="element_quaternary_content_light">@color/palette_gray_100</color>
+    <color name="element_quinary_content_light">@color/palette_gray_50</color>
+
+    <color name="element_primary_content_dark">@color/palette_white</color>
+    <color name="element_secondary_content_dark">@color/palette_gray_250</color>
+    <color name="element_tertiary_content_dark">@color/palette_gray_300</color>
+    <color name="element_quaternary_content_dark">@color/palette_gray_400</color>
+    <color name="element_quinary_content_dark">@color/palette_gray_450</color>
+
+    <color name="element_system_light">@color/palette_gray_25</color>
+    <color name="element_system_dark">@color/palette_black_950</color>
+
+    <color name="element_background_light">@color/palette_white</color>
+    <color name="element_background_dark">@color/palette_black_800</color>
+
+    <color name="element_name_01_light">@color/palette_azure</color>
+    <color name="element_name_01_dark">@color/palette_azure</color>
+
+    <color name="element_name_02_light">@color/palette_grape</color>
+    <color name="element_name_02_dark">@color/palette_grape</color>
+
+    <color name="element_name_03_light">@color/palette_verde</color>
+    <color name="element_name_03_dark">@color/palette_verde</color>
+
+    <color name="element_name_04_light">@color/palette_polly</color>
+    <color name="element_name_04_dark">@color/palette_polly</color>
+
+    <color name="element_name_05_light">@color/palette_melon</color>
+    <color name="element_name_05_dark">@color/palette_melon</color>
+
+    <color name="element_name_06_light">@color/palette_aqua</color>
+    <color name="element_name_06_dark">@color/palette_aqua</color>
+
+    <color name="element_name_07_light">@color/palette_prune</color>
+    <color name="element_name_07_dark">@color/palette_prune</color>
+
+    <color name="element_name_08_light">@color/palette_kiwi</color>
+    <color name="element_name_08_dark">@color/palette_kiwi</color>
+
+</resources>
