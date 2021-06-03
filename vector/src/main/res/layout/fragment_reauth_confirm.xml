@@ -95,7 +95,7 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/reAuthConfirmButton"
             style="@style/VectorButtonStylePositive"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
@@ -103,6 +103,8 @@
             android:layout_marginBottom="20dp"
             android:text="@string/_continue"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/genericErrorText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

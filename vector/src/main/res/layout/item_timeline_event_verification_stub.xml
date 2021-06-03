@@ -17,8 +17,8 @@
         android:textColor="?riotx_text_primary"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:text="@string/verification_request"
-        app:drawableStartCompat="@drawable/ic_shield_black" />
+        app:drawableStartCompat="@drawable/ic_shield_black"
+        tools:text="@string/verification_request" />
 
 
     <TextView
@@ -45,12 +45,16 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/sas_verification_verified_decline_button"
             style="@style/VectorButtonStyleDestructive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:text="@string/decline" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/sas_verification_verified_accept_button"
             style="@style/VectorButtonStylePositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/accept" />
 
     </LinearLayout>
@@ -62,8 +66,8 @@
         android:gravity="center_horizontal"
         android:text="@string/verification_request_you_accepted"
         android:textColor="?attr/vctr_notice_secondary"
+        android:textSize="13sp"
         android:visibility="gone"
-        tools:visibility="visible"
-        android:textSize="13sp" />
+        tools:visibility="visible" />
 
 </LinearLayout>

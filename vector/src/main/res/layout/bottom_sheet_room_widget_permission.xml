@@ -98,6 +98,8 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/widgetPermissionDecline"
             style="@style/VectorButtonStyleDestructive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/layout_vertical_margin"
             android:text="@string/decline"
             android:textAllCaps="true" />
@@ -105,6 +107,8 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/widgetPermissionContinue"
             style="@style/VectorButtonStylePositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/layout_vertical_margin"
             android:minWidth="160dp"
             android:text="@string/_continue"

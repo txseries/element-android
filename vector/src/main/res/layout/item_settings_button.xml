@@ -6,7 +6,7 @@
     android:background="?android:colorBackground"
     android:minHeight="64dp">
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/settings_item_button"
         style="@style/VectorButtonStyleText"
         android:layout_width="wrap_content"

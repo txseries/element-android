@@ -42,7 +42,6 @@
         <!-- Keep color accent for legacy widget-->
         <item name="colorAccent">@color/element_accent_dark</item>
 
-        <item name="materialButtonStyle">@style/VectorButtonStyle</item>
         <item name="toolbarStyle">@style/VectorToolbarStyle</item>
 
         <!-- Menu text color -->

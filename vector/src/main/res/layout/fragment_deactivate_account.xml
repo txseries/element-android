@@ -30,9 +30,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/deactivateAccountContent" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/deactivateAccountSubmit"
             style="@style/VectorButtonStyleDestructive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/deactivate_account_submit"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -114,7 +114,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keys_backup_setup_step2_button"
-            style="@style/VectorButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:text="@string/keys_backup_setup_step2_button_title"
@@ -136,6 +137,8 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keys_backup_setup_step2_skip_button"
             style="@style/VectorButtonStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="@dimen/layout_vertical_margin"

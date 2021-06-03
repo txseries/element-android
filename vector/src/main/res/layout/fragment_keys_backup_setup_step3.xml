@@ -83,13 +83,16 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keys_backup_setup_step3_copy_button"
             style="@style/VectorButtonStyleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:maxWidth="@dimen/button_max_width"
             android:text="@string/keys_backup_setup_step3_copy_button_title" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keys_backup_setup_step3_finish_button"
-            style="@style/VectorButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/layout_vertical_margin"
             android:layout_marginBottom="@dimen/layout_vertical_margin"

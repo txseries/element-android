@@ -88,7 +88,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/keys_backup_restore_with_passphrase_submit"
-            style="@style/VectorButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/layout_vertical_margin_big"
             android:layout_marginEnd="@dimen/layout_horizontal_margin"
             android:layout_marginBottom="@dimen/layout_vertical_margin_big"

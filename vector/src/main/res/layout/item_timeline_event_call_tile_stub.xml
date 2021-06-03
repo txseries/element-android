@@ -62,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/itemCallAcceptView"
             style="@style/VectorButtonStylePositive"
             android:layout_width="wrap_content"
@@ -72,9 +72,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toEndOf="@+id/itemCallRejectView"
-            app:layout_constraintTop_toTopOf="@id/itemCallRejectView" />
+            app:layout_constraintTop_toTopOf="@id/itemCallRejectView"
+            tools:text="@string/join" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/itemCallRejectView"
             style="@style/VectorButtonStyleDestructive"
             android:layout_width="wrap_content"
@@ -85,7 +86,8 @@
             app:layout_constraintEnd_toStartOf="@+id/itemCallAcceptView"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/ignore" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

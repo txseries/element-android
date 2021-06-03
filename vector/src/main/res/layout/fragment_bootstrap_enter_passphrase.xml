@@ -78,6 +78,8 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bootstrapSubmit"
         style="@style/VectorButtonStyleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/_continue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
