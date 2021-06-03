@@ -5,17 +5,6 @@
     <color name="vector_warning_color_2">@color/palette_melon</color>
     <color name="vector_info_color">#2f9edb</color>
 
-    <!-- main app colors -->
-    <color name="vector_silver_color">#FFC7C7C7</color>
-    <color name="vector_dark_grey_color">#FF999999</color>
-
-    <!-- Hint Colors -->
-    <color name="primary_hint_text_color_light">#FFFFFF</color>
-    <color name="primary_hint_text_color_dark">#FFFFFF</color>
-
-    <color name="default_text_hint_color_light">#903C3C3C</color>
-    <color name="default_text_hint_color_dark">#CCDDDDDD</color>
-
     <!-- Notification view colors -->
     <color name="soft_resource_limit_exceeded">#2f9edb</color>
     <color name="hard_resource_limit_exceeded">?colorError</color>
