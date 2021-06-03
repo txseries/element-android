@@ -55,7 +55,7 @@
             app:iconGravity="textStart"
             app:iconPadding="0dp"
             app:iconSize="20dp"
-            app:iconTint="?riot_primary_text_color"
+            app:iconTint="?riotx_text_primary"
             app:layout_constraintCircle="@+id/creationTileRoomAvatarImageView"
             app:layout_constraintCircleAngle="135"
             app:layout_constraintCircleRadius="34dp"

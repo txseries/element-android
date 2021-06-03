@@ -50,5 +50,6 @@ This file can help Element Android forks maintainers to migrate their code.
 
 - vctr_toolbar_primary_text_color -> riotx_text_primary
 - vctr_toolbar_secondary_text_color -> riotx_text_primary
+- riot_primary_text_color -> riotx_text_primary
 
 - riotx_android_secondary -> riotx_text_secondary
