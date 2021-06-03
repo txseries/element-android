@@ -2,12 +2,10 @@
 <resources>
 
     <!-- Error colors -->
-    <color name="vector_success_color">#70BF56</color>
-    <color name="vector_warning_color_2">#ff812d</color>
+    <color name="vector_warning_color_2">@color/palette_melon</color>
     <color name="vector_info_color">#2f9edb</color>
 
     <!-- main app colors -->
-    <color name="vector_fuchsia_color">#ff4b55</color>
     <color name="vector_silver_color">#FFC7C7C7</color>
     <color name="vector_dark_grey_color">#FF999999</color>
 
@@ -82,7 +80,7 @@
 
     <!-- Notification view colors -->
     <color name="soft_resource_limit_exceeded">#2f9edb</color>
-    <color name="hard_resource_limit_exceeded">@color/vector_fuchsia_color</color>
+    <color name="hard_resource_limit_exceeded">?colorError</color>
 
     <!-- Password Strength bar colors -->
     <color name="password_strength_bar_weak">#FFF56679</color>
@@ -101,12 +99,12 @@
 
 
     <!-- Link color -->
-    <color name="link_color_light">#368BD6</color>
-    <color name="link_color_dark">#368BD6</color>
+    <color name="link_color_light">@color/palette_azure</color>
+    <color name="link_color_dark">@color/palette_azure</color>
 
     <!-- Notification (do not depends on theme) -->
-    <color name="notification_accent_color">#368BD6</color>
-    <color name="key_share_req_accent_color">#ff812d</color>
+    <color name="notification_accent_color">@color/palette_azure</color>
+    <color name="key_share_req_accent_color">@color/palette_melon</color>
 
         <!-- Source: https://zpl.io/aBKw9Mk -->
 
