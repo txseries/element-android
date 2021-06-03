@@ -30,28 +30,18 @@
     <color name="element_background_dark">@color/palette_black_800</color>
     <color name="element_background_black">@color/palette_black</color>
 
-    <color name="element_name_01_light">@color/palette_azure</color>
-    <color name="element_name_01_dark">@color/palette_azure</color>
+    <color name="element_name_01">@color/palette_azure</color>
+    <color name="element_name_02">@color/palette_grape</color>
+    <color name="element_name_03">@color/palette_verde</color>
+    <color name="element_name_04">@color/palette_polly</color>
+    <color name="element_name_05">@color/palette_melon</color>
+    <color name="element_name_06">@color/palette_aqua</color>
+    <color name="element_name_07">@color/palette_prune</color>
+    <color name="element_name_08">@color/palette_kiwi</color>
 
-    <color name="element_name_02_light">@color/palette_grape</color>
-    <color name="element_name_02_dark">@color/palette_grape</color>
-
-    <color name="element_name_03_light">@color/palette_verde</color>
-    <color name="element_name_03_dark">@color/palette_verde</color>
-
-    <color name="element_name_04_light">@color/palette_polly</color>
-    <color name="element_name_04_dark">@color/palette_polly</color>
-
-    <color name="element_name_05_light">@color/palette_melon</color>
-    <color name="element_name_05_dark">@color/palette_melon</color>
-
-    <color name="element_name_06_light">@color/palette_aqua</color>
-    <color name="element_name_06_dark">@color/palette_aqua</color>
-
-    <color name="element_name_07_light">@color/palette_prune</color>
-    <color name="element_name_07_dark">@color/palette_prune</color>
-
-    <color name="element_name_08_light">@color/palette_kiwi</color>
-    <color name="element_name_08_dark">@color/palette_kiwi</color>
+    <!-- Also create alias for rooms -->
+    <color name="element_room_01">@color/palette_verde</color>
+    <color name="element_room_02">@color/palette_azure</color>
+    <color name="element_room_03">@color/palette_grape</color>
 
 </resources>
