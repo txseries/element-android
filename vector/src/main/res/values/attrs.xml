@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- application bar text color -->
-    <attr name="vctr_toolbar_link_text_color" format="color" />
-
     <!-- room message colors -->
     <attr name="vctr_unsent_message_text_color" format="color" />
     <attr name="vctr_message_text_color" format="color" />

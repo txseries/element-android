@@ -61,10 +61,6 @@
         <!-- waiting view background -->
         <item name="riotx_waiting_background_color">@color/riotx_waiting_background_color_dark</item>
 
-
-        <!-- application bar text color -->
-        <item name="vctr_toolbar_link_text_color">@color/element_link_dark</item>
-
         <!-- room message colors -->
         <item name="vctr_notice_secondary">#61708B</item>
         <item name="vctr_unsent_message_text_color">?colorError</item>
