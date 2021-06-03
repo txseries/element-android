@@ -49,3 +49,4 @@ This file can help Element Android forks maintainers to migrate their code.
 - link_color_dark -> element_link_dark
 
 - vctr_toolbar_primary_text_color -> riotx_text_primary
+- vctr_toolbar_secondary_text_color -> riotx_text_primary

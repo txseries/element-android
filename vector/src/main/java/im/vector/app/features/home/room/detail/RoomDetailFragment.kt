@@ -1289,7 +1289,7 @@ class RoomDetailFragment @Inject constructor(
         views.roomToolbarSubtitleView.apply {
             setTextOrHide(subtitle)
             if (typingMessage.isNullOrBlank()) {
-                setTextColor(colorProvider.getColorFromAttribute(R.attr.vctr_toolbar_secondary_text_color))
+                setTextColor(colorProvider.getColorFromAttribute(R.attr.riotx_text_primary))
                 setTypeface(null, Typeface.NORMAL)
             } else {
                 setTextColor(colorProvider.getColorFromAttribute(R.attr.colorPrimary))

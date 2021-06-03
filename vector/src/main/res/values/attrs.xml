@@ -2,7 +2,6 @@
 <resources>
 
     <!-- application bar text color -->
-    <attr name="vctr_toolbar_secondary_text_color" format="color" />
     <attr name="vctr_toolbar_link_text_color" format="color" />
 
     <!-- room message colors -->

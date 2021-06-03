@@ -62,7 +62,6 @@
 
         <!-- application bar text color -->
         <!-- Base Text Secondary-->
-        <item name="vctr_toolbar_secondary_text_color">@color/riotx_text_primary_light</item>
         <item name="vctr_toolbar_link_text_color">@color/element_link_light</item>
 
         <!-- room message colors -->
