@@ -32,3 +32,6 @@ This file can help Element Android forks maintainers to migrate their code.
 - riotx_avatar_fill_1 -> element_room_01
 - riotx_avatar_fill_2 -> element_room_02
 - riotx_avatar_fill_3 -> element_room_03
+
+- white -> @android:color/white
+- black -> @android:color/black or emoji_color

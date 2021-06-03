@@ -59,7 +59,7 @@
 
     <!-- tabbar text color -->
     <style name="Vector.TabText" parent="Widget.AppCompat.ActionBar.TabText">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">?colorOnPrimary</item>
     </style>
 
 

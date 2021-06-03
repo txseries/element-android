@@ -25,7 +25,6 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@drawable/ic_call_answer"
-            app:tint="@color/white"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
         <ImageView
@@ -39,7 +38,6 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@drawable/ic_call_hangup"
-            app:tint="@color/white"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
         <androidx.constraintlayout.helper.widget.Flow
@@ -75,7 +73,6 @@
             android:focusable="true"
             android:scaleType="center"
             android:src="@drawable/ic_call_pip"
-            app:tint="@android:color/white"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
         <ImageView
@@ -103,7 +100,6 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@drawable/ic_call_hangup"
-            app:tint="@color/white"
             tools:ignore="MissingConstraints,MissingPrefix" />
 
         <ImageView

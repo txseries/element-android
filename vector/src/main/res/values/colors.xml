@@ -124,8 +124,9 @@
     <color name="riotx_notice_secondary_alpha12">#1E61708B</color>
 
     <!-- Other useful color -->
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Emoji text has to use a black text color -->
+    <color name="emoji_color">@android:color/black</color>
+
     <color name="black_alpha">#55000000</color>
     <color name="black_54">#8A000000</color>
 
@@ -191,14 +192,14 @@
     <color name="riotx_unread_room_badge_black">#FF61708B</color>
 
     <attr name="riotx_fab_label_bg" format="color" />
-    <color name="riotx_fab_label_bg_light">@color/white</color>
+    <color name="riotx_fab_label_bg_light">@android:color/white</color>
     <color name="riotx_fab_label_bg_dark">#FF181B21</color>
     <color name="riotx_fab_label_bg_black">#FF181B21</color>
 
     <attr name="riotx_fab_label_stroke" format="color" />
     <color name="riotx_fab_label_stroke_light">#1EFFFFFF</color>
-    <color name="riotx_fab_label_stroke_dark">@color/black</color>
-    <color name="riotx_fab_label_stroke_black">@color/black</color>
+    <color name="riotx_fab_label_stroke_dark">@android:color/black</color>
+    <color name="riotx_fab_label_stroke_black">@android:color/black</color>
 
     <attr name="riotx_fab_label_color" format="color" />
     <color name="riotx_fab_label_color_light">#FF2E2F32</color>

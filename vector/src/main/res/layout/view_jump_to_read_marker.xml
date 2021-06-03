@@ -20,7 +20,7 @@
         android:paddingEnd="16dp"
         android:paddingBottom="12dp"
         android:text="@string/room_jump_to_first_unread"
-        android:textColor="@color/white"
+        android:textColor="?colorOnPrimary"
         app:drawableStartCompat="@drawable/arrow_up_circle" />
 
     <ImageView

@@ -64,7 +64,6 @@
                 android:background="?attr/colorAccent"
                 android:padding="8dp"
                 android:text="@string/settings_troubleshoot_diagnostic_run_button_title"
-                android:textColor="@android:color/white"
                 android:visibility="gone"
                 tools:enabled="false"
                 tools:visibility="visible" />
@@ -78,7 +77,6 @@
                 android:background="?attr/colorAccent"
                 android:padding="8dp"
                 android:text="@string/send_bug_report"
-                android:textColor="@android:color/white"
                 android:visibility="gone"
                 tools:visibility="visible" />
         </LinearLayout>

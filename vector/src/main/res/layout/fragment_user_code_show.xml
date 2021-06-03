@@ -174,7 +174,7 @@
             android:minWidth="130dp"
             android:text="@string/user_code_share"
             app:icon="@drawable/ic_share"
-            app:iconTint="@color/white"
+            app:iconTint="?colorOnPrimary"
             app:layout_constraintBottom_toTopOf="@id/showUserCodeScanButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

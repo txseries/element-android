@@ -21,8 +21,8 @@
         android:paddingBottom="12dp"
         android:textSize="14sp"
         android:text="@string/call_only_active"
-        android:textColor="@color/white"
-        app:drawableTint="@color/white"
+        android:textColor="?colorOnPrimary"
+        app:drawableTint="?colorOnPrimary"
         app:drawableStartCompat="@drawable/ic_call_answer" />
 
     <com.google.android.material.button.MaterialButton
@@ -39,7 +39,7 @@
         android:paddingStart="8dp"
         android:paddingEnd="16dp"
         android:text="@string/action_return"
-        android:textColor="@color/white"
+        android:textColor="?colorOnPrimary"
         android:textSize="14sp"
         android:textStyle="bold" />
 

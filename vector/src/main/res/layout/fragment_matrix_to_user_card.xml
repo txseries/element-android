@@ -58,7 +58,6 @@
         android:minWidth="130dp"
         android:text="@string/start_chatting"
         app:icon="@drawable/ic_fab_add_chat"
-        app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

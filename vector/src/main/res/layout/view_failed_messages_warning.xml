@@ -56,7 +56,6 @@
         android:text="@string/global_retry"
         android:textSize="14sp"
         app:icon="@drawable/ic_retry_sending_messages"
-        app:iconTint="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/failedMessagesWarningDivider" />

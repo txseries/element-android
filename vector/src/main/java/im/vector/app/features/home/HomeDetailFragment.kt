@@ -22,7 +22,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
@@ -392,7 +391,7 @@ class HomeDetailFragment @Inject constructor(
         isVisible = count > 0
         number = count
         maxCharacterCount = 3
-        badgeTextColor = ContextCompat.getColor(requireContext(), R.color.white)
+        badgeTextColor = ThemeUtils.getColor(requireContext(), R.attr.colorOnPrimary)
         backgroundColor = if (highlight) {
             ThemeUtils.getColor(requireContext(), R.attr.colorError)
         } else {

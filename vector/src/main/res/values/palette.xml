@@ -36,7 +36,4 @@
     <color name="palette_black_800">#15191E</color>
     <color name="palette_black_950">#21262C</color>
 
-    <!-- For black themes -->
-    <color name="palette_black">#000000</color>
-
 </resources>

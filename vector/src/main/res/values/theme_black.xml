@@ -32,11 +32,11 @@
         <!-- Material color: Note: this block should be the same in all theme because it references only common colors and ?riotx attributes -->
         <item name="colorPrimary">@color/element_accent_dark</item>
         <!--item name="colorPrimaryVariant">@color/primary_color_dark_light</item-->
-        <item name="colorOnPrimary">@color/riotx_text_primary_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
         <!-- We do not use color secondary, default will be colorPrimary values: It does not work so declare again the value -->
         <item name="colorSecondary">@color/element_accent_dark</item>
         <item name="colorSecondaryVariant">@color/primary_color_dark_black</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSecondary">@android:color/white</item>
         <item name="colorSurface">@color/element_system_black</item>
         <item name="colorOnSurface">?riotx_text_primary</item>
         <item name="android:colorBackground">@color/element_background_black</item>

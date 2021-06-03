@@ -227,13 +227,13 @@
         android:src="@drawable/chevron_down"
         app:backgroundTint="#FFFFFF"
         app:badgeBackgroundColor="?colorPrimary"
-        app:badgeTextColor="@color/white"
+        app:badgeTextColor="?colorOnPrimary"
         app:badgeTextPadding="2dp"
         app:badgeTextSize="10sp"
         app:layout_constraintBottom_toTopOf="@id/badgeBarrier"
         app:layout_constraintEnd_toEndOf="parent"
         app:maxImageSize="16dp"
-        app:tint="@color/black" />
+        app:tint="@android:color/black" />
 
     <nl.dionsegijn.konfetti.KonfettiView
         android:id="@+id/viewKonfetti"

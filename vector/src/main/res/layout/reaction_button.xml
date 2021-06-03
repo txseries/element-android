@@ -44,7 +44,7 @@
         android:maxEms="10"
         android:minWidth="20dp"
         android:singleLine="true"
-        android:textColor="@color/black"
+        android:textColor="@color/emoji_color"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/reactionCount"
