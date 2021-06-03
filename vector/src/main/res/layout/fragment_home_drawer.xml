@@ -12,7 +12,7 @@
         android:id="@+id/homeDrawerHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?vctr_home_drawer_header_background"
+        android:background="?element_header_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -79,7 +79,7 @@
             android:layout_height="34dp"
             android:layout_marginTop="2dp"
             android:layout_marginEnd="@dimen/layout_horizontal_margin"
-            android:backgroundTint="?riotx_bottom_nav_background_color"
+            android:backgroundTint="?colorSurface"
             android:elevation="0dp"
             android:insetLeft="0dp"
             android:insetTop="0dp"
@@ -139,7 +139,7 @@
         android:id="@+id/homeDrawerBottomSeparator"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/vctr_list_divider_color"
+        android:background="?element_header_background"
         app:layout_constraintBottom_toTopOf="@+id/homeDrawerHeaderSettingsView" />
 
     <TextView

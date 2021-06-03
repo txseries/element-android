@@ -37,7 +37,7 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
         <RelativeLayout
-            android:background="?riotx_header_panel_background"
+            android:background="?element_header_background"
             android:id="@+id/callTransferActionsLayout"
             android:layout_width="match_parent"
             android:paddingVertical="8dp"

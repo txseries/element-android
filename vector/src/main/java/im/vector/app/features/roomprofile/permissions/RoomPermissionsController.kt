@@ -50,7 +50,7 @@ class RoomPermissionsController @Inject constructor(
 
     var callback: Callback? = null
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     // Order is the order applied in the UI
     // Element Web order is not really nice, try to put the settings which are more likely to be updated first

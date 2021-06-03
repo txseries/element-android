@@ -57,7 +57,7 @@ class RoomDirectoryPickerController @Inject constructor(
     var currentRoomDirectoryData: RoomDirectoryData? = null
     var callback: Callback? = null
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     override fun buildModels(data: RoomDirectoryPickerViewState) {
         val host = this

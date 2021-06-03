@@ -45,7 +45,7 @@ fun createUCropWithDefaultSettings(colorProvider: ColorProvider,
                                 // Background
                                 setRootViewBackgroundColor(colorProvider.getColorFromAttribute(android.R.attr.colorBackground))
                                 // Status bar color (pb in dark mode, icon of the status bar are dark)
-                                setStatusBarColor(colorProvider.getColorFromAttribute(R.attr.riotx_header_panel_background))
+                                setStatusBarColor(colorProvider.getColorFromAttribute(R.attr.element_header_background))
                                 // Known issue: there is still orange color used by the lib
                                 // https://github.com/Yalantis/uCrop/issues/602
                                 setActiveControlsWidgetColor(colorProvider.getColorFromAttribute(R.attr.colorPrimary))

@@ -44,7 +44,7 @@ class SpacePeopleListController @Inject constructor(
         private val roomMemberSummaryFilter: RoomMemberSummaryFilter
 ) : TypedEpoxyController<RoomMemberListViewState>() {
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     interface InteractionListener {
         fun onSpaceMemberClicked(roomMemberSummary: RoomMemberSummary)

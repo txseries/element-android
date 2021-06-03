@@ -35,3 +35,11 @@ This file can help Element Android forks maintainers to migrate their code.
 
 - white -> @android:color/white
 - black -> @android:color/black or emoji_color
+
+- riotx_list_bottom_sheet_divider_color -> ?element_header_background
+- vctr_list_header_background_color -> ?element_header_background
+- vctr_list_divider_color -> ?element_header_background
+- riotx_header_panel_text_secondary -> ?element_header_background
+- riotx_header_panel_background -> ?element_header_background
+- vctr_home_drawer_header_background -> ?element_header_background
+- riotx_header_panel_border_mobile -> ?element_header_background

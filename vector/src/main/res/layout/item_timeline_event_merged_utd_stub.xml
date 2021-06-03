@@ -74,6 +74,6 @@
         android:layout_height="1dp"
         android:layout_below="@+id/mergedUTDTile"
         android:layout_marginTop="4dp"
-        android:background="?attr/riotx_header_panel_background" />
+        android:background="?element_header_background" />
 
 </RelativeLayout>

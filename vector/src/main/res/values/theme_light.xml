@@ -5,10 +5,8 @@
 
     <style name="AppTheme.Base.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Riotx attribute for palette -->
-        <item name="vctr_home_drawer_header_background">@color/vctr_home_drawer_header_background_light</item>
-        <item name="riotx_header_panel_background">@color/riotx_header_panel_background_light</item>
-        <item name="riotx_header_panel_border_mobile">@color/riotx_header_panel_border_mobile_light</item>
-        <item name="riotx_header_panel_text_secondary">@color/riotx_header_panel_text_secondary_light</item>
+        <item name="element_header_background">@color/element_header_background_light</item>
+
         <item name="riotx_text_primary">@color/riotx_text_primary_light</item>
         <item name="riotx_text_secondary">@color/riotx_text_secondary_light</item>
         <item name="riotx_text_tertiary">@color/riotx_text_tertiary_light</item>
@@ -35,7 +33,7 @@
         <item name="colorOnPrimary">@android:color/white</item>
         <!-- We do not use color secondary, default will be colorPrimary values: It does not work so declare again the value -->
         <item name="colorSecondary">@color/element_accent_light</item>
-        <item name="colorSecondaryVariant">@color/primary_color_dark_light</item>
+        <item name="colorSecondaryVariant">@color/element_accent_light</item>
         <item name="colorOnSecondary">@android:color/white</item>
         <item name="colorError">@color/element_alert_light</item>
         <item name="colorOnError">@color/palette_white</item>
@@ -57,7 +55,6 @@
         <item name="android:actionMenuTextColor">?colorAccent</item>
 
         <!-- default background color -->
-        <item name="riotx_bottom_nav_background_color">@color/riotx_bottom_nav_background_color_light</item>
         <item name="riotx_bottom_nav_background_border_color">@color/riotx_bottom_nav_background_border_color_light</item>
 
         <!-- waiting view background -->
@@ -75,20 +72,13 @@
         <item name="vctr_unsent_message_text_color">?colorError</item>
         <item name="vctr_message_text_color">@color/riot_primary_text_color_light</item>
         <item name="vctr_notice_text_color">#FF61708b</item>
-        <item name="vctr_encrypting_message_text_color">@color/accent_color_light</item>
+        <item name="vctr_encrypting_message_text_color">@color/palette_element_green</item>
         <item name="vctr_sending_message_text_color">@color/riotx_text_secondary_light</item>
         <item name="vctr_markdown_block_background_color">#FFEEEEEE</item>
         <item name="vctr_spoiler_background_color">#FF000000</item>
 
         <item name="riot_primary_text_color">@color/riot_primary_text_color_light</item>
         <item name="riot_primary_text_color_disabled">@color/riot_primary_text_color_disabled_light</item>
-
-        <!-- list colors -->
-        <!--Header/Panel Background-->
-        <item name="vctr_list_header_background_color">#FFF3F8FD</item>
-
-        <item name="riotx_list_bottom_sheet_divider_color">@color/riotx_list_bottom_sheet_divider_color_light</item>
-        <item name="vctr_list_divider_color">@color/riotx_header_panel_background_light</item>
 
         <!-- room notification text color (typing, unsent...) -->
         <!--Notice (secondary)-->
@@ -103,9 +93,6 @@
         <!-- ANDROID SUPPORT ATTRIBUTES -->
         <!-- disable the overscroll because setOverscrollHeader/Footer don't always work -->
         <item name="android:overScrollMode">never</item>
-
-        <!-- activities background -->
-        <item name="android:windowBackground">@color/riot_primary_background_color_light</item>
 
         <!-- fonts -->
         <item name="android:typeface">sans</item>
@@ -159,9 +146,9 @@
         <item name="pf_next">@style/PinCodeNextButtonStyle</item>
 
         <!-- Use dark color, to have enough contrast with icons color. windowLightStatusBar is only available in API 23+ -->
-        <item name="android:statusBarColor">@color/riotx_header_panel_background_dark</item>
+        <item name="android:statusBarColor">@color/element_quinary_content_dark</item>
         <!-- Use dark color, to have enough contrast with icons color. windowLightNavigationBar is only available in API 27+ -->
-        <item name="android:navigationBarColor">@color/riotx_header_panel_background_dark</item>
+        <item name="android:navigationBarColor">@color/element_quinary_content_dark</item>
 
         <!-- enable window content transitions -->
         <item name="android:windowContentTransitions">true</item>

@@ -16,11 +16,6 @@
     <attr name="vctr_markdown_block_background_color" format="color" />
     <attr name="vctr_spoiler_background_color" format="color" />
 
-    <!-- list colors -->
-    <attr name="vctr_list_header_background_color" format="color" />
-
-    <attr name="vctr_list_divider_color" format="color" />
-
     <!-- room notification text color (typing, unsent...) -->
     <attr name="vctr_room_notification_text_color" format="color" />
 

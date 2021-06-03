@@ -10,7 +10,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?vctr_list_divider_color" />
+        android:background="?element_header_background" />
 
     <ImageView
         android:id="@+id/roomNotificationIcon"

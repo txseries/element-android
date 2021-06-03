@@ -42,7 +42,7 @@
             style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:backgroundTint="?riotx_bottom_nav_background_color"
+            android:backgroundTint="?colorSurface"
             android:contentDescription="@string/room_settings_set_avatar"
             android:elevation="2dp"
             android:insetLeft="0dp"
@@ -195,6 +195,6 @@
         android:layout_height="1dp"
         android:layout_below="@+id/mergedSumContainer"
         android:layout_marginTop="4dp"
-        android:background="?attr/riotx_header_panel_background" />
+        android:background="?element_header_background" />
 
 </RelativeLayout>

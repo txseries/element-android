@@ -36,7 +36,7 @@ class RoomMemberProfileController @Inject constructor(
         private val session: Session
 ) : TypedEpoxyController<RoomMemberProfileViewState>() {
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     var callback: Callback? = null
 

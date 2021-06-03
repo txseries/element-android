@@ -55,7 +55,7 @@ class SpaceSettingsController @Inject constructor(
         fun setIsPublic(public: Boolean)
     }
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     var callback: Callback? = null
 

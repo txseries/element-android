@@ -42,7 +42,7 @@ class RoomBannedMemberListController @Inject constructor(
         fun onUnbanClicked(roomMember: RoomMemberSummary)
     }
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     var callback: Callback? = null
 

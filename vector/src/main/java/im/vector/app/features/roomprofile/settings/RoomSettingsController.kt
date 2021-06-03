@@ -52,7 +52,7 @@ class RoomSettingsController @Inject constructor(
         fun onToggleGuestAccess()
     }
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.vctr_list_divider_color)
+    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     var callback: Callback? = null
 

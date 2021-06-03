@@ -7,10 +7,8 @@
         <!-- Only setting the items we need to override to get the background to be pure black, otherwise inheriting -->
 
         <!-- Riotx attribute for palette -->
-        <item name="vctr_home_drawer_header_background">@color/vctr_home_drawer_header_background_black</item>
-        <item name="riotx_header_panel_background">@color/riotx_header_panel_background_black</item>
-        <item name="riotx_header_panel_border_mobile">@color/riotx_header_panel_border_mobile_black</item>
-        <item name="riotx_header_panel_text_secondary">@color/riotx_header_panel_text_secondary_black</item>
+        <item name="element_header_background">@color/element_header_background_black</item>
+
         <item name="riotx_text_primary">@color/riotx_text_primary_black</item>
         <item name="riotx_text_secondary">@color/riotx_text_secondary_black</item>
         <item name="riotx_text_tertiary">@color/riotx_text_tertiary_black</item>
@@ -35,7 +33,7 @@
         <item name="colorOnPrimary">@android:color/white</item>
         <!-- We do not use color secondary, default will be colorPrimary values: It does not work so declare again the value -->
         <item name="colorSecondary">@color/element_accent_dark</item>
-        <item name="colorSecondaryVariant">@color/primary_color_dark_black</item>
+        <item name="colorSecondaryVariant">@color/element_accent_dark</item>
         <item name="colorOnSecondary">@android:color/white</item>
         <item name="colorSurface">@color/element_system_black</item>
         <item name="colorOnSurface">?riotx_text_primary</item>
@@ -51,22 +49,13 @@
         <!-- Menu text color -->
         <item name="android:actionMenuTextColor">?colorAccent</item>
 
-        <!-- list colors -->
-        <!--Header/Panel Background-->
-        <item name="vctr_list_header_background_color">#FF090A0C</item>
-
-        <item name="riotx_list_bottom_sheet_divider_color">@color/riotx_list_bottom_sheet_divider_color_black</item>
-        <item name="vctr_list_divider_color">@color/riotx_header_panel_background_black</item>
-
         <item name="vctr_markdown_block_background_color">#FF4D4D4D</item>
 
         <!-- activities background -->
-        <item name="android:windowBackground">@color/riot_primary_background_color_black</item>
-        <item name="riotx_bottom_nav_background_color">@color/riotx_bottom_nav_background_color_black</item>
         <item name="riotx_bottom_nav_background_border_color">@color/riotx_bottom_nav_background_border_color_black</item>
 
-        <item name="android:statusBarColor">@color/riotx_header_panel_background_black</item>
-        <item name="android:navigationBarColor">@color/riotx_header_panel_background_black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
 
         <!-- enable window content transitions -->
         <item name="android:windowContentTransitions">true</item>

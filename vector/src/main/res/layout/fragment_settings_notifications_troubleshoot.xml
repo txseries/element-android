@@ -26,7 +26,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?attr/vctr_list_divider_color" />
+            android:background="?element_header_background" />
 
         <TextView
             android:id="@+id/troubleshoot_summ_title"

@@ -36,7 +36,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/vctr_list_divider_color" />
+        android:background="?element_header_background" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/recoveryCopy"
@@ -51,7 +51,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/vctr_list_divider_color" />
+        android:background="?element_header_background" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/recoverySave"
@@ -66,7 +66,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/vctr_list_divider_color" />
+        android:background="?element_header_background" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/recoveryContinue"
@@ -81,7 +81,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/vctr_list_divider_color" />
+        android:background="?element_header_background" />
 
 
 </LinearLayout>

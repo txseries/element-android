@@ -39,7 +39,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="2dp"
-        android:background="?riotx_list_bottom_sheet_divider_color"
+        android:background="?element_header_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/childSpaceAvatar" />

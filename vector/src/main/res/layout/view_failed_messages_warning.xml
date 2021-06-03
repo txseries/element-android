@@ -13,7 +13,7 @@
         android:layout_marginStart="@dimen/layout_horizontal_margin"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="@dimen/layout_horizontal_margin"
-        android:background="?attr/vctr_list_divider_color"
+        android:background="?element_header_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
