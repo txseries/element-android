@@ -57,7 +57,7 @@
 
     <style name="TextAppearance.Vector.Login.Text.Small">
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">?riotx_android_secondary</item>
+        <item name="android:textColor">?riotx_text_secondary</item>
     </style>
 
 </resources>

@@ -154,9 +154,9 @@
         android:padding="16dp"
         android:text="@string/settings"
         android:textSize="14sp"
-        android:tint="?riotx_android_secondary"
+        android:tint="?riotx_text_secondary"
         app:drawableStartCompat="@drawable/ic_settings_18dp"
-        app:drawableTint="?riotx_android_secondary"
+        app:drawableTint="?riotx_text_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -172,9 +172,9 @@
         android:padding="16dp"
         android:text="@string/logout"
         android:textSize="14sp"
-        android:tint="?riotx_android_secondary"
+        android:tint="?riotx_text_secondary"
         app:drawableStartCompat="@drawable/ic_signout_18dp"
-        app:drawableTint="?riotx_android_secondary"
+        app:drawableTint="?riotx_text_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

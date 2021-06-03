@@ -11,7 +11,6 @@
         <item name="riotx_text_secondary">@color/riotx_text_secondary_light</item>
         <item name="riotx_text_tertiary">@color/riotx_text_tertiary_light</item>
         <item name="riotx_text_primary_body_contrast">@color/riotx_text_primary_body_contrast_light</item>
-        <item name="riotx_android_secondary">@color/riotx_android_secondary_light</item>
         <item name="riotx_unread_room_indent">@color/riotx_unread_room_indent_light</item>
         <item name="riotx_unread_room_badge">@color/riotx_unread_room_badge_light</item>
         <item name="riotx_fab_label_bg">@color/riotx_fab_label_bg_light</item>
@@ -102,17 +101,6 @@
 
         <!-- no divider -->
         <item name="android:actionBarDivider">@null</item>
-
-        <!-- tabbar background -->
-        <item name="android:actionBarTabStyle">@style/Vector.TabView</item>
-        <item name="actionBarTabStyle">@style/Vector.TabView</item>
-
-        <!-- tabbar text color -->
-        <item name="android:actionBarTabTextStyle">@style/Vector.TabText</item>
-        <item name="actionBarTabTextStyle">@style/Vector.TabText</item>
-
-        <item name="tab_bar_selected_background_color">@color/tab_bar_selected_background_color_light</item>
-        <item name="tab_bar_unselected_background_color">@color/tab_bar_unselected_background_color_light</item>
 
         <!-- Preference -->
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
