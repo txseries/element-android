@@ -20,7 +20,6 @@ import com.airbnb.epoxy.TypedEpoxyController
 import im.vector.app.R
 import im.vector.app.core.epoxy.profiles.buildProfileAction
 import im.vector.app.core.epoxy.profiles.buildProfileSection
-import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
 import im.vector.app.features.form.formEditTextItem
 import im.vector.app.features.form.formEditableAvatarItem
@@ -37,8 +36,7 @@ class RoomSettingsController @Inject constructor(
         private val stringProvider: StringProvider,
         private val avatarRenderer: AvatarRenderer,
         private val roomHistoryVisibilityFormatter: RoomHistoryVisibilityFormatter,
-        private val vectorPreferences: VectorPreferences,
-        colorProvider: ColorProvider
+        private val vectorPreferences: VectorPreferences
 ) : TypedEpoxyController<RoomSettingsViewState>() {
 
     interface Callback {
@@ -51,8 +49,6 @@ class RoomSettingsController @Inject constructor(
         fun onJoinRuleClicked()
         fun onToggleGuestAccess()
     }
-
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
 
     var callback: Callback? = null
 
@@ -112,7 +108,6 @@ class RoomSettingsController @Inject constructor(
                 id = "historyReadability",
                 title = stringProvider.getString(R.string.room_settings_room_read_history_rules_pref_title),
                 subtitle = roomHistoryVisibilityFormatter.getSetting(data.newHistoryVisibility ?: data.currentHistoryVisibility),
-                dividerColor = dividerColor,
                 divider = true,
                 editable = data.actionPermissions.canChangeHistoryVisibility,
                 action = { if (data.actionPermissions.canChangeHistoryVisibility) callback?.onHistoryVisibilityClicked() }
@@ -122,7 +117,6 @@ class RoomSettingsController @Inject constructor(
                 id = "joinRule",
                 title = stringProvider.getString(R.string.room_settings_room_access_title),
                 subtitle = data.getJoinRuleWording(stringProvider),
-                dividerColor = dividerColor,
                 divider = false,
                 editable = data.actionPermissions.canChangeJoinRule,
                 action = { if (data.actionPermissions.canChangeJoinRule) callback?.onJoinRuleClicked() }

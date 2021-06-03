@@ -9,14 +9,6 @@
     <color name="vector_silver_color">#FFC7C7C7</color>
     <color name="vector_dark_grey_color">#FF999999</color>
 
-    <!--Default/Line break mobile-->
-    <attr name="list_divider_color" format="color" />
-    <color name="list_divider_color_light">#EEEFEF</color>
-    <!--Dark/Line break mobile-->
-    <color name="list_divider_color_dark">#FF61708B</color>
-    <!--Black/Line break mobile-->
-    <color name="list_divider_color_black">#FF22262E</color>
-
     <attr name="tab_bar_selected_background_color" format="color" />
     <color name="tab_bar_selected_background_color_light">@color/riotx_android_secondary_light</color>
     <color name="tab_bar_selected_background_color_dark">@color/riotx_android_secondary_dark</color>

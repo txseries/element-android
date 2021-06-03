@@ -44,8 +44,6 @@ class SpacePeopleListController @Inject constructor(
         private val roomMemberSummaryFilter: RoomMemberSummaryFilter
 ) : TypedEpoxyController<RoomMemberListViewState>() {
 
-    private val dividerColor = colorProvider.getColorFromAttribute(R.attr.element_header_background)
-
     interface InteractionListener {
         fun onSpaceMemberClicked(roomMemberSummary: RoomMemberSummary)
         fun onInviteToSpaceSelected()
@@ -73,7 +71,6 @@ class SpacePeopleListController @Inject constructor(
             if (filtered.isNotEmpty()) {
                 dividerItem {
                     id("divider_type_${memberEntry.first.titleRes}")
-                    color(host.dividerColor)
                 }
             }
             foundCount += filtered.size
@@ -123,7 +120,6 @@ class SpacePeopleListController @Inject constructor(
                             between = { _, roomMemberBefore ->
                                 dividerItem {
                                     id("divider_${roomMemberBefore.userId}")
-                                    color(host.dividerColor)
                                 }
                             }
                     )

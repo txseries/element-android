@@ -88,8 +88,6 @@
         <item name="vctr_settings_icon_tint_color">@android:color/white</item>
         <item name="vctr_icon_tint_on_light_action_bar_color">@color/element_accent_dark</item>
 
-        <item name="list_divider_color">@color/list_divider_color_dark</item>
-
         <!-- ANDROID SUPPORT ATTRIBUTES -->
         <!-- disable the overscroll because setOverscrollHeader/Footer don't always work -->
         <item name="android:overScrollMode">never</item>
