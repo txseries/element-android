@@ -23,7 +23,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
@@ -31,6 +30,7 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.SwitchPreference
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import im.vector.app.R
 import im.vector.app.core.di.ActiveSessionHolder
 import im.vector.app.core.dialogs.ExportKeysDialog
@@ -449,7 +449,7 @@ class VectorSettingsSecurityPrivacyFragment @Inject constructor(
                 views.dialogE2eKeysPassphraseFilename.text = getString(R.string.import_e2e_keys_from_file, filename)
             }
 
-            val builder = AlertDialog.Builder(thisActivity)
+            val builder = MaterialAlertDialogBuilder(thisActivity)
                     .setTitle(R.string.encryption_import_room_keys)
                     .setView(dialogLayout)
 
@@ -487,7 +487,7 @@ class VectorSettingsSecurityPrivacyFragment @Inject constructor(
 
                                         hideLoadingView()
 
-                                        AlertDialog.Builder(thisActivity)
+                                        MaterialAlertDialogBuilder(thisActivity)
                                                 .setMessage(resources.getQuantityString(R.plurals.encryption_import_room_keys_success,
                                                         data.successfullyNumberOfImportedKeys,
                                                         data.successfullyNumberOfImportedKeys,

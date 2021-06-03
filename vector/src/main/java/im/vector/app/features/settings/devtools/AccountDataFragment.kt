@@ -21,10 +21,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import im.vector.app.R
 import im.vector.app.core.dialogs.withColoredButton
 import im.vector.app.core.extensions.cleanup
@@ -85,7 +85,7 @@ class AccountDataFragment @Inject constructor(
     }
 
     override fun didLongTap(data: AccountDataEvent) {
-        AlertDialog.Builder(requireActivity())
+        MaterialAlertDialogBuilder(requireActivity())
                 .setTitle(R.string.delete)
                 .setMessage(getString(R.string.delete_account_data_warning, data.type))
                 .setNegativeButton(R.string.cancel, null)
