@@ -92,14 +92,14 @@
 
     <!-- main text -->
     <style name="ActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">?attr/vctr_toolbar_primary_text_color</item>
+        <item name="android:textColor">?riotx_text_primary</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
         <item name="android:textSize">20sp</item>
     </style>
 
     <!-- sub text -->
     <style name="ActionBarSubTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
-        <item name="android:textColor">?attr/vctr_toolbar_primary_text_color</item>
+        <item name="android:textColor">?riotx_text_primary</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
         <item name="android:textSize">12sp</item>
     </style>

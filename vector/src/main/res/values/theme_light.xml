@@ -61,8 +61,6 @@
         <item name="riotx_waiting_background_color">@color/riotx_waiting_background_color_light</item>
 
         <!-- application bar text color -->
-        <!-- Base Text Primary-->
-        <item name="vctr_toolbar_primary_text_color">@color/riotx_text_primary_light</item>
         <!-- Base Text Secondary-->
         <item name="vctr_toolbar_secondary_text_color">@color/riotx_text_primary_light</item>
         <item name="vctr_toolbar_link_text_color">@color/element_link_light</item>
