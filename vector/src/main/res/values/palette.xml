@@ -18,12 +18,14 @@
     <color name="palette_ems">#7E69FF</color>
     <color name="palette_aqua">#2DC2C5</color>
     <color name="palette_prune">#5C56F5</color>
-    <color name="palette_gray_150">#8D99A5</color>
+    <color name="palette_links">#0086E6</color>
+
 
     <!-- For light themes -->
     <color name="palette_gray_25">#F5F7FB</color>
     <color name="palette_gray_50">#E6EAF2</color>
     <color name="palette_gray_100">#C7CCD2</color>
+    <color name="palette_gray_150">#8D99A5</color>
     <color name="palette_gray_200">#818A98</color>
     <color name="palette_black_900">#17191C</color>
     <color name="palette_ice">#F4F9FD</color>

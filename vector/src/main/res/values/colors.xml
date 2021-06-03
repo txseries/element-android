@@ -69,11 +69,6 @@
     <color name="button_bot_enabled_text_color">#FF368BD6</color>
     <color name="button_bot_disabled_text_color">#61708B</color>
 
-
-    <!-- Link color -->
-    <color name="link_color_light">@color/palette_azure</color>
-    <color name="link_color_dark">@color/palette_azure</color>
-
     <!-- Notification (do not depends on theme) -->
     <color name="notification_accent_color">@color/palette_azure</color>
     <color name="key_share_req_accent_color">@color/palette_melon</color>

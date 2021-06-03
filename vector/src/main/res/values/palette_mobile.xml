@@ -10,6 +10,9 @@
     <color name="element_alert_light">@color/palette_vermilion</color>
     <color name="element_alert_dark">@color/palette_vermilion</color>
 
+    <color name="element_link_light">@color/palette_links</color>
+    <color name="element_link_dark">@color/palette_links</color>
+
     <color name="element_primary_content_light">@color/palette_black_900</color>
     <color name="element_secondary_content_light">@color/palette_gray_200</color>
     <color name="element_tertiary_content_light">@color/palette_gray_150</color>

@@ -203,7 +203,7 @@
         <item name="android:textColorSecondary">@color/riot_secondary_text_color_dark</item>
         <!-- Default color for text View -->
         <item name="android:textColorTertiary">@color/riot_tertiary_text_color_dark</item>
-        <item name="android:textColorLink">@color/link_color_dark</item>
+        <item name="android:textColorLink">@color/element_link_dark</item>
     </style>
 
     <style name="Vector.BottomSheet.Light" parent="Theme.Design.Light.BottomSheetDialog">
@@ -211,7 +211,7 @@
         <item name="android:textColorSecondary">@color/riot_secondary_text_color_light</item>
         <!-- Default color for text View -->
         <item name="android:textColorTertiary">@color/riot_tertiary_text_color_light</item>
-        <item name="android:textColorLink">@color/link_color_light</item>
+        <item name="android:textColorLink">@color/element_link_light</item>
     </style>
 
 

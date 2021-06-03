@@ -43,3 +43,6 @@ This file can help Element Android forks maintainers to migrate their code.
 - riotx_header_panel_background -> ?element_header_background
 - vctr_home_drawer_header_background -> ?element_header_background
 - riotx_header_panel_border_mobile -> ?element_header_background
+
+- link_color_light -> element_link_light
+- link_color_dark -> element_link_dark
