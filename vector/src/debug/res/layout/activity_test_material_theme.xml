@@ -378,24 +378,28 @@
                 android:id="@+id/debugShowSnackbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Show Snackbar" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/debugShowToast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Show Toast" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/debugShowDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Show Dialog" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/debugShowBottomSheet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Show Bottom Sheet" />
 
             <com.google.android.material.checkbox.MaterialCheckBox
@@ -410,7 +414,8 @@
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -423,8 +428,16 @@
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="16dp"
                 android:importantForAccessibility="no"
                 android:src="@drawable/ic_settings_x" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/home_bottom_navigation" />
 
         </LinearLayout>
 
