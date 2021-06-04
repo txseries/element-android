@@ -18,6 +18,7 @@ package im.vector.app.features.crypto.verification.cancel
 
 import com.airbnb.epoxy.EpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -49,7 +50,7 @@ class VerificationNotMeController @Inject constructor(
             notice(host.eventHtmlRenderer.render(host.stringProvider.getString(R.string.verify_not_me_self_verification)))
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep0")
         }
 
@@ -62,7 +63,7 @@ class VerificationNotMeController @Inject constructor(
             listener { host.listener?.onTapSkip() }
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep1")
         }
 

@@ -17,6 +17,7 @@ package im.vector.app.features.settings.devices
 
 import com.airbnb.epoxy.TypedEpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.epoxy.loadingItem
 import im.vector.app.core.resources.ColorProvider
@@ -141,7 +142,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
 
         if (isMine && !currentSessionIsTrusted && data.canVerifySession) {
             // Add complete security
-            dividerItem {
+            bottomSheetDividerItem {
                 id("completeSecurityDiv")
             }
             bottomSheetVerificationActionItem {
@@ -200,7 +201,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
 
         if (!isMine) {
             // if it's not the current device you can trigger a verification
-            dividerItem {
+            bottomSheetDividerItem {
                 id("d1")
             }
             bottomSheetVerificationActionItem {
@@ -218,7 +219,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
 
     private fun addVerifyActions(cryptoDeviceInfo: CryptoDeviceInfo) {
         val host = this
-        dividerItem {
+        bottomSheetDividerItem {
             id("verifyDiv")
         }
         bottomSheetVerificationActionItem {
@@ -231,7 +232,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
                 host.callback?.onAction(DevicesAction.VerifyMyDeviceManually(cryptoDeviceInfo.deviceId))
             }
         }
-        dividerItem {
+        bottomSheetDividerItem {
             id("verifyDiv2")
         }
         bottomSheetVerificationActionItem {
@@ -251,7 +252,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
         // Offer delete session if not me
         if (!data.isMine) {
             // Add the delete option
-            dividerItem {
+            bottomSheetDividerItem {
                 id("manageD1")
             }
             bottomSheetVerificationActionItem {
@@ -267,7 +268,7 @@ class DeviceVerificationInfoBottomSheetController @Inject constructor(
         }
 
         // Always offer rename
-        dividerItem {
+        bottomSheetDividerItem {
             id("manageD2")
         }
         bottomSheetVerificationActionItem {

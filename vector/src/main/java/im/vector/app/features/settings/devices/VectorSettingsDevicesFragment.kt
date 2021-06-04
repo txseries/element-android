@@ -69,7 +69,7 @@ class VectorSettingsDevicesFragment @Inject constructor(
         views.waitingView.waitingStatusText.setText(R.string.please_wait)
         views.waitingView.waitingStatusText.isVisible = true
         devicesController.callback = this
-        views.genericRecyclerView.configureWith(devicesController, showDivider = true)
+        views.genericRecyclerView.configureWith(devicesController, dividerDrawable = R.drawable.divider_horizontal)
         viewModel.observeViewEvents {
             when (it) {
                 is DevicesViewEvents.Loading            -> showLoading(it.message)

@@ -19,6 +19,7 @@ package im.vector.app.features.crypto.verification.cancel
 import androidx.core.text.toSpannable
 import com.airbnb.epoxy.EpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -70,7 +71,7 @@ class VerificationCancelController @Inject constructor(
             }
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep0")
         }
 
@@ -83,7 +84,7 @@ class VerificationCancelController @Inject constructor(
             listener { host.listener?.onTapCancel() }
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep1")
         }
 

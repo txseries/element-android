@@ -18,6 +18,7 @@ package im.vector.app.features.crypto.verification.conclusion
 
 import com.airbnb.epoxy.EpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -87,7 +88,7 @@ class VerificationConclusionController @Inject constructor(
                     notice(host.stringProvider.getString(R.string.verify_cancelled_notice))
                 }
 
-                dividerItem {
+                bottomSheetDividerItem {
                     id("sep0")
                 }
 
@@ -105,7 +106,7 @@ class VerificationConclusionController @Inject constructor(
 
     private fun bottomDone() {
         val host = this
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep0")
         }
 

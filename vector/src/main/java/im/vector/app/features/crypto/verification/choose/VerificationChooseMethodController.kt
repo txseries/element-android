@@ -18,6 +18,7 @@ package im.vector.app.features.crypto.verification.choose
 
 import com.airbnb.epoxy.EpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -56,7 +57,7 @@ class VerificationChooseMethodController @Inject constructor(
                     data(state.qrCodeText)
                 }
 
-                dividerItem {
+                bottomSheetDividerItem {
                     id("sep0")
                 }
             }
@@ -71,7 +72,7 @@ class VerificationChooseMethodController @Inject constructor(
                     listener { host.listener?.openCamera() }
                 }
 
-                dividerItem {
+                bottomSheetDividerItem {
                     id("sep1")
                 }
             }
@@ -97,7 +98,7 @@ class VerificationChooseMethodController @Inject constructor(
         }
 
         if (state.isMe && state.canCrossSign) {
-            dividerItem {
+            bottomSheetDividerItem {
                 id("sep_notMe")
             }
 

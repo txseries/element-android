@@ -48,7 +48,7 @@ abstract class PushRuleItem : EpoxyModelWithHolder<PushRuleItem.Holder>() {
             holder.view.setBackgroundColor(Color.TRANSPARENT)
             holder.ruleId.text = pushRule.ruleId
         } else {
-            holder.view.setBackgroundColor(ThemeUtils.getColor(context, R.attr.element_header_background))
+            holder.view.setBackgroundColor(ThemeUtils.getColor(context, R.attr.vctr_header_background))
             holder.ruleId.text = "[Disabled] ${pushRule.ruleId}"
         }
         val actions = pushRule.getActions()

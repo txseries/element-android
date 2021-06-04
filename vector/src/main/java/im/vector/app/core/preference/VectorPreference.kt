@@ -107,7 +107,7 @@ open class VectorPreference : Preference {
                 val icon = holder.findViewById(android.R.id.icon) as? ImageView
 
                 icon?.let {
-                    val color = ThemeUtils.getColor(context, R.attr.element_header_background)
+                    val color = ThemeUtils.getColor(context, R.attr.vctr_header_background)
                     ImageViewCompat.setImageTintList(it, ColorStateList.valueOf(color))
                 }
             }

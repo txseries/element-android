@@ -40,7 +40,7 @@
             android:id="@+id/callTransferActionsLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?element_header_background"
+            android:background="?vctr_header_background"
             android:paddingHorizontal="16dp"
             android:paddingVertical="8dp"
             app:layout_constraintBottom_toBottomOf="parent"

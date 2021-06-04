@@ -20,6 +20,7 @@ import com.airbnb.epoxy.EpoxyController
 import com.airbnb.mvrx.Fail
 import com.airbnb.mvrx.Success
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.epoxy.errorWithRetryItem
 import im.vector.app.core.error.ErrorFormatter
@@ -127,7 +128,7 @@ class VerificationEmojiCodeController @Inject constructor(
 
     private fun buildActions(state: VerificationEmojiCodeViewState) {
         val host = this
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep0")
         }
 
@@ -145,7 +146,7 @@ class VerificationEmojiCodeController @Inject constructor(
                 iconColor(host.colorProvider.getColorFromAttribute(R.attr.colorError))
                 listener { host.listener?.onDoNotMatchButtonTapped() }
             }
-            dividerItem {
+            bottomSheetDividerItem {
                 id("sep1")
             }
             bottomSheetVerificationActionItem {

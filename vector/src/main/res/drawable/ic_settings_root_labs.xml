@@ -8,5 +8,5 @@
       android:fillColor="@color/element_tertiary_content_light"/>
   <path
       android:pathData="M7.3481,2.5C4.8899,2.5 4.0004,4.1544 4.0004,5.1811V15.9785H5.8277C9.6771,14.2291 13.4294,17.5377 17.3919,17.4997C21.3545,17.4616 21.5,15.3319 21.5,14.267V5.7136C21.5,2.2337 19.0904,5.5804 14.9982,4.2304C11.4458,3.0584 10.8053,2.5 7.3481,2.5Z"
-      android:fillColor="?element_header_background"/>
+      android:fillColor="@color/element_tertiary_content_light"/>
 </vector>

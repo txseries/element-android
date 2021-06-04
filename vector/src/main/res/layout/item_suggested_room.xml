@@ -102,11 +102,12 @@
         app:barrierDirection="bottom"
         app:constraint_referenced_ids="roomAvatarBottomSpace" />
 
+    <!-- We use vctr_list_separator_system here for a better rendering -->
     <View
         android:id="@+id/roomDividerView"
         android:layout_width="0dp"
         android:layout_height="1dp"
-        android:background="?element_header_background"
+        android:background="?vctr_list_separator_system"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

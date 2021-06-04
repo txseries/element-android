@@ -22,6 +22,7 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.Success
 import com.airbnb.mvrx.Uninitialized
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -63,7 +64,7 @@ class VerificationRequestController @Inject constructor(
                     id("waiting")
                 }
 
-                dividerItem {
+                bottomSheetDividerItem {
                     id("sep")
                 }
             }
@@ -85,7 +86,7 @@ class VerificationRequestController @Inject constructor(
                 }
             }
 
-            dividerItem {
+            bottomSheetDividerItem {
                 id("sep1")
             }
 
@@ -114,7 +115,7 @@ class VerificationRequestController @Inject constructor(
                 notice(styledText)
             }
 
-            dividerItem {
+            bottomSheetDividerItem {
                 id("sep")
             }
 
@@ -155,7 +156,7 @@ class VerificationRequestController @Inject constructor(
         }
 
         if (state.isMe && state.currentDeviceCanCrossSign && !state.selfVerificationMode) {
-            dividerItem {
+            bottomSheetDividerItem {
                 id("sep_notMe")
             }
 

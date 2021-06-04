@@ -28,7 +28,7 @@
     <color name="notification_accent_color">@color/palette_azure</color>
     <color name="key_share_req_accent_color">@color/palette_melon</color>
 
-        <!-- Source: https://zpl.io/aBKw9Mk -->
+    <!-- Source: https://zpl.io/aBKw9Mk -->
 
     <!-- Accents -->
     <color name="riotx_button_primary_accent_alpha12">#14368BD6</color>
@@ -65,11 +65,29 @@
     <color name="android_status_bar_background_dark">#FF22262E</color>
     <color name="android_navigation_bar_background_dark">#FF22262E</color>
 
-    <!-- Used for header background and list separator -->
-    <attr name="element_header_background" format="color" />
-    <color name="element_header_background_light">@color/element_quinary_content_light</color>
-    <color name="element_header_background_dark">@color/element_quinary_content_dark</color>
-    <color name="element_header_background_black">@color/element_quinary_content_dark</color>
+    <!-- Used for header background -->
+    <attr name="vctr_header_background" format="color" />
+    <color name="vctr_header_background_light">@color/element_quinary_content_light</color>
+    <color name="vctr_header_background_dark">@color/element_quinary_content_dark</color>
+    <color name="vctr_header_background_black">@color/element_quinary_content_dark</color>
+
+    <!-- Used for item separators in list -->
+    <attr name="vctr_list_separator" format="color" />
+    <color name="vctr_list_separator_light">@color/element_quinary_content_light</color>
+    <color name="vctr_list_separator_dark">@color/element_quinary_content_dark</color>
+    <color name="vctr_list_separator_black">@color/element_quinary_content_dark</color>
+
+    <!-- Used for item separators in list, variant using element system color -->
+    <attr name="vctr_list_separator_system" format="color" />
+    <color name="vctr_list_separator_system_light">@color/element_system_light</color>
+    <color name="vctr_list_separator_system_dark">@color/element_system_dark</color>
+    <color name="vctr_list_separator_system_black">@color/element_system_black</color>
+
+    <!-- Used for item separators in list, on surface -->
+    <attr name="vctr_list_separator_on_surface" format="color" />
+    <color name="vctr_list_separator_on_surface_light">@color/element_system_light</color>
+    <color name="vctr_list_separator_on_surface_dark">@color/element_system_dark</color>
+    <color name="vctr_list_separator_on_surface_black">@color/element_system_black</color>
 
     <attr name="riotx_text_primary" format="color" />
     <color name="riotx_text_primary_light">#FF2E2F32</color>

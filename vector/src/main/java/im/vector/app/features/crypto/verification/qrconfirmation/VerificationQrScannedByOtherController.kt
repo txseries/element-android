@@ -18,6 +18,7 @@ package im.vector.app.features.crypto.verification.qrconfirmation
 
 import com.airbnb.epoxy.EpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.resources.ColorProvider
 import im.vector.app.core.resources.StringProvider
@@ -63,7 +64,7 @@ class VerificationQrScannedByOtherController @Inject constructor(
             roomEncryptionTrustLevel(RoomEncryptionTrustLevel.Trusted)
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep0")
         }
 
@@ -76,7 +77,7 @@ class VerificationQrScannedByOtherController @Inject constructor(
             listener { host.listener?.onUserDeniesQrCodeScanned() }
         }
 
-        dividerItem {
+        bottomSheetDividerItem {
             id("sep1")
         }
 

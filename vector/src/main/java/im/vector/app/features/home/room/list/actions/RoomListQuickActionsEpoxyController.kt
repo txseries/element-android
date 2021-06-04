@@ -17,6 +17,7 @@ package im.vector.app.features.home.room.list.actions
 
 import android.view.View
 import com.airbnb.epoxy.TypedEpoxyController
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
 import im.vector.app.core.epoxy.bottomsheet.bottomSheetRoomPreviewItem
 import im.vector.app.core.epoxy.dividerItem
@@ -59,7 +60,7 @@ class RoomListQuickActionsEpoxyController @Inject constructor(
             }
 
             // Notifications
-            dividerItem {
+            bottomSheetDividerItem {
                 id("notifications_separator")
             }
         }

@@ -3,18 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="?colorSurface"
     android:minHeight="200dp"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingTop="16dp">
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
 
     <TextView
         android:id="@+id/bootstrapConclusionText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/bootstrap_cross_signing_success"
         android:textColor="?riotx_text_primary"
         android:textSize="14sp"
@@ -28,7 +29,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/element_header_background" />
+        android:background="?vctr_list_separator_on_surface" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/bootstrapConclusionContinue"
@@ -43,6 +44,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?attr/element_header_background" />
+        android:background="?attr/vctr_list_separator_on_surface" />
 
 </LinearLayout>

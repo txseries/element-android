@@ -22,6 +22,7 @@ import im.vector.app.EmojiCompatFontProvider
 import im.vector.app.R
 import im.vector.app.core.date.DateFormatKind
 import im.vector.app.core.date.VectorDateFormatter
+import im.vector.app.core.epoxy.bottomSheetDividerItem
 import im.vector.app.core.epoxy.bottomsheet.BottomSheetQuickReactionsItem
 import im.vector.app.core.epoxy.bottomsheet.bottomSheetActionItem
 import im.vector.app.core.epoxy.bottomsheet.bottomSheetMessagePreviewItem
@@ -132,7 +133,7 @@ class MessageActionsEpoxyController @Inject constructor(
         // Quick reactions
         if (state.canReact() && state.quickStates is Success) {
             // Separator
-            dividerItem {
+            bottomSheetDividerItem {
                 id("reaction_separator")
             }
 
@@ -151,7 +152,7 @@ class MessageActionsEpoxyController @Inject constructor(
 
         if (state.actions.isNotEmpty()) {
             // Separator
-            dividerItem {
+            bottomSheetDividerItem {
                 id("actions_separator")
             }
         }
@@ -159,7 +160,7 @@ class MessageActionsEpoxyController @Inject constructor(
         // Action
         state.actions.forEachIndexed { index, action ->
             if (action is EventSharedAction.Separator) {
-                dividerItem {
+                bottomSheetDividerItem {
                     id("separator_$index")
                 }
             } else {
