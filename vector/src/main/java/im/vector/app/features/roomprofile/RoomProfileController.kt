@@ -180,7 +180,7 @@ class RoomProfileController @Inject constructor(
                 id = "permissions",
                 title = stringProvider.getString(R.string.room_settings_permissions_title),
                 subtitle = stringProvider.getString(R.string.room_settings_permissions_subtitle),
-                divider = false,
+                divider = vectorPreferences.developerMode(),
                 editable = true,
                 action = { callback?.onRoomPermissionsClicked() }
         )
