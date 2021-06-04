@@ -54,6 +54,12 @@
       'riotx_<name in the palette snake case>_<theme>'
       -->
 
+    <!-- For Android status bar and navigation bar -->
+    <color name="android_status_bar_background_light">#FFF3F8FD</color>
+    <color name="android_navigation_bar_background_light">#FFF3F8FD</color>
+    <color name="android_status_bar_background_dark">#FF22262E</color>
+    <color name="android_navigation_bar_background_dark">#FF22262E</color>
+
     <!-- Used for header background and list separator -->
     <attr name="element_header_background" format="color" />
     <color name="element_header_background_light">@color/element_quinary_content_light</color>
