@@ -4,7 +4,8 @@
     <!-- DARK THEME COLORS -->
 
     <style name="AppTheme.Base.Dark" parent="Theme.MaterialComponents.NoActionBar">
-        <!-- Riotx attribute for palette -->
+        <!-- Element attribute for palette -->
+        <item name="vctr_home_drawer_header_background">@color/vctr_home_drawer_header_background_dark</item>
         <item name="element_header_background">@color/element_header_background_dark</item>
 
         <item name="riotx_text_primary">@color/riotx_text_primary_dark</item>

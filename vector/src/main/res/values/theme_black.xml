@@ -6,7 +6,8 @@
     <style name="AppTheme.Base.Black" parent="AppTheme.Base.Dark">
         <!-- Only setting the items we need to override to get the background to be pure black, otherwise inheriting -->
 
-        <!-- Riotx attribute for palette -->
+        <!-- Element attribute for palette -->
+        <item name="vctr_home_drawer_header_background">@color/vctr_home_drawer_header_background_black</item>
         <item name="element_header_background">@color/element_header_background_black</item>
 
         <item name="riotx_text_primary">@color/riotx_text_primary_black</item>

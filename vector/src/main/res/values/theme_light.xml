@@ -4,7 +4,8 @@
     <!-- LIGHT THEME COLORS -->
 
     <style name="AppTheme.Base.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Riotx attribute for palette -->
+        <!-- Element attribute for palette -->
+        <item name="vctr_home_drawer_header_background">@color/vctr_home_drawer_header_background_light</item>
         <item name="element_header_background">@color/element_header_background_light</item>
 
         <item name="riotx_text_primary">@color/riotx_text_primary_light</item>
