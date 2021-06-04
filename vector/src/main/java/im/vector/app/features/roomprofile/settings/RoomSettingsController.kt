@@ -18,6 +18,7 @@ package im.vector.app.features.roomprofile.settings
 
 import com.airbnb.epoxy.TypedEpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.epoxy.profiles.buildProfileAction
 import im.vector.app.core.epoxy.profiles.buildProfileSection
 import im.vector.app.core.resources.StringProvider
@@ -91,7 +92,9 @@ class RoomSettingsController @Inject constructor(
                 host.callback?.onNameChanged(text)
             }
         }
-
+        dividerItem {
+            id("nameDivider")
+        }
         formEditTextItem {
             id("topic")
             enabled(data.actionPermissions.canChangeTopic)
@@ -102,6 +105,9 @@ class RoomSettingsController @Inject constructor(
             onTextChange { text ->
                 host.callback?.onTopicChanged(text)
             }
+        }
+        dividerItem {
+            id("topicDivider")
         }
 
         buildProfileAction(

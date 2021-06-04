@@ -40,9 +40,6 @@ abstract class FormMultiLineEditTextItem : VectorEpoxyModel<FormMultiLineEditTex
     var value: String? = null
 
     @EpoxyAttribute
-    var showBottomSeparator: Boolean = true
-
-    @EpoxyAttribute
     var errorMessage: String? = null
 
     @EpoxyAttribute
@@ -81,7 +78,6 @@ abstract class FormMultiLineEditTextItem : VectorEpoxyModel<FormMultiLineEditTex
         holder.textInputEditText.isEnabled = enabled
 
         holder.textInputEditText.addTextChangedListener(onTextChangeListener)
-        holder.bottomSeparator.isVisible = showBottomSeparator
     }
 
     override fun shouldSaveViewState(): Boolean {
@@ -96,6 +92,5 @@ abstract class FormMultiLineEditTextItem : VectorEpoxyModel<FormMultiLineEditTex
     class Holder : VectorEpoxyHolder() {
         val textInputLayout by bind<TextInputLayout>(R.id.formMultiLineTextInputLayout)
         val textInputEditText by bind<TextInputEditText>(R.id.formMultiLineEditText)
-        val bottomSeparator by bind<View>(R.id.formTextInputDivider)
     }
 }

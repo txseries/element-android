@@ -71,7 +71,6 @@ class SpaceDefaultRoomEpoxyController @Inject constructor(
             value(firstRoomName)
             hint(host.stringProvider.getString(R.string.create_room_name_section))
             endIconMode(TextInputLayout.END_ICON_CLEAR_TEXT)
-            showBottomSeparator(false)
             onTextChange { text ->
                 host.listener?.onNameChange(0, text)
             }
@@ -84,7 +83,6 @@ class SpaceDefaultRoomEpoxyController @Inject constructor(
             value(secondRoomName)
             hint(host.stringProvider.getString(R.string.create_room_name_section))
             endIconMode(TextInputLayout.END_ICON_CLEAR_TEXT)
-            showBottomSeparator(false)
             onTextChange { text ->
                 host.listener?.onNameChange(1, text)
             }
@@ -97,7 +95,6 @@ class SpaceDefaultRoomEpoxyController @Inject constructor(
             value(thirdRoomName)
             hint(host.stringProvider.getString(R.string.create_room_name_section))
             endIconMode(TextInputLayout.END_ICON_CLEAR_TEXT)
-            showBottomSeparator(false)
             onTextChange { text ->
                 host.listener?.onNameChange(2, text)
             }

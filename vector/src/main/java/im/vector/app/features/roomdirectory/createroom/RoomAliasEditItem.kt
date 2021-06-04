@@ -37,9 +37,6 @@ abstract class RoomAliasEditItem : VectorEpoxyModel<RoomAliasEditItem.Holder>() 
     var value: String? = null
 
     @EpoxyAttribute
-    var showBottomSeparator: Boolean = true
-
-    @EpoxyAttribute
     var errorMessage: String? = null
 
     @EpoxyAttribute
@@ -66,7 +63,6 @@ abstract class RoomAliasEditItem : VectorEpoxyModel<RoomAliasEditItem.Holder>() 
         holder.textInputEditText.isEnabled = enabled
         holder.textInputEditText.addTextChangedListener(onTextChangeListener)
         holder.homeServerText.text = homeServer
-        holder.bottomSeparator.isVisible = showBottomSeparator
     }
 
     override fun shouldSaveViewState(): Boolean {
@@ -82,6 +78,5 @@ abstract class RoomAliasEditItem : VectorEpoxyModel<RoomAliasEditItem.Holder>() 
         val textInputLayout by bind<TextInputLayout>(R.id.itemRoomAliasTextInputLayout)
         val textInputEditText by bind<TextInputEditText>(R.id.itemRoomAliasTextInputEditText)
         val homeServerText by bind<TextView>(R.id.itemRoomAliasHomeServer)
-        val bottomSeparator by bind<View>(R.id.itemRoomAliasDivider)
     }
 }

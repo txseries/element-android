@@ -46,9 +46,6 @@ abstract class FormSwitchItem : VectorEpoxyModel<FormSwitchItem.Holder>() {
     @EpoxyAttribute
     var summary: String? = null
 
-    @EpoxyAttribute
-    var showDivider: Boolean = true
-
     override fun bind(holder: Holder) {
         super.bind(holder)
         holder.view.setOnClickListener {
@@ -65,8 +62,6 @@ abstract class FormSwitchItem : VectorEpoxyModel<FormSwitchItem.Holder>() {
         holder.setValueOnce(holder.switchView, switchChecked) { _, isChecked ->
             listener?.invoke(isChecked)
         }
-
-        holder.divider.isVisible = showDivider
     }
 
     override fun shouldSaveViewState(): Boolean {
@@ -83,6 +78,5 @@ abstract class FormSwitchItem : VectorEpoxyModel<FormSwitchItem.Holder>() {
         val titleView by bind<TextView>(R.id.formSwitchTitle)
         val summaryView by bind<TextView>(R.id.formSwitchSummary)
         val switchView by bind<SwitchMaterial>(R.id.formSwitchSwitch)
-        val divider by bind<View>(R.id.formSwitchDivider)
     }
 }

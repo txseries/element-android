@@ -18,6 +18,7 @@ package im.vector.app.features.spaces.manage
 
 import com.airbnb.epoxy.TypedEpoxyController
 import im.vector.app.R
+import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.epoxy.profiles.buildProfileAction
 import im.vector.app.core.epoxy.profiles.buildProfileSection
 import im.vector.app.core.resources.StringProvider
@@ -87,7 +88,6 @@ class SpaceSettingsController @Inject constructor(
             enabled(data.actionPermissions.canChangeName)
             value(data.newName ?: roomSummary.displayName)
             hint(host.stringProvider.getString(R.string.create_room_name_hint))
-            showBottomSeparator(false)
             onTextChange { text ->
                 host.callback?.onNameChanged(text)
             }
@@ -98,7 +98,6 @@ class SpaceSettingsController @Inject constructor(
             enabled(data.actionPermissions.canChangeTopic)
             value(data.newTopic ?: roomSummary.topic)
             hint(host.stringProvider.getString(R.string.create_space_topic_hint))
-            showBottomSeparator(false)
             onTextChange { text ->
                 host.callback?.onTopicChanged(text)
             }
@@ -109,7 +108,7 @@ class SpaceSettingsController @Inject constructor(
                     id = "joinRule",
                     title = stringProvider.getString(R.string.room_settings_room_access_title),
                     subtitle = data.getJoinRuleWording(stringProvider),
-                    divider = true,
+                    divider = false,
                     editable = data.actionPermissions.canChangeJoinRule,
                     action = { if (data.actionPermissions.canChangeJoinRule) callback?.onJoinRuleClicked() }
             )
@@ -125,6 +124,9 @@ class SpaceSettingsController @Inject constructor(
                     host.callback?.setIsPublic(value)
                 }
             }
+        }
+        dividerItem {
+            id("divider")
         }
 
         buildProfileAction(

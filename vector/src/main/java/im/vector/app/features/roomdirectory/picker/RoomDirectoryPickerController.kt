@@ -106,7 +106,6 @@ class RoomDirectoryPickerController @Inject constructor(
             }
             formEditTextItem {
                 id("edit")
-                showBottomSeparator(false)
                 value(data.enteredServer)
                 imeOptions(EditorInfo.IME_ACTION_DONE)
                 editorActionListener(object : TextView.OnEditorActionListener {
