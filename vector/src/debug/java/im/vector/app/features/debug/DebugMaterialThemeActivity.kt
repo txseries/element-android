@@ -45,6 +45,7 @@ abstract class DebugMaterialThemeActivity : AppCompatActivity() {
 
         views.debugShowDialog.setOnClickListener {
             MaterialAlertDialogBuilder(this)
+                    .setTitle("Dialog title")
                     .setMessage("Dialog content")
                     .setIcon(R.drawable.ic_settings_x)
                     .setPositiveButton("Positive", null)
