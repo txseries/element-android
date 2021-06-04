@@ -16,4 +16,4 @@
 
 package im.vector.app.features.debug
 
-class DebugMaterialThemeLightActivity : DebugMaterialThemeActivity()
+class DebugMaterialThemeDarkTestActivity : DebugMaterialThemeActivity()

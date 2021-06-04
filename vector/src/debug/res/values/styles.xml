@@ -7,6 +7,10 @@
 
 
     <style name="VectorMaterialThemeDebugLight" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Keep all default value -->
+    </style>
+
+    <style name="VectorMaterialThemeDebugLight.Test">
         <item name="colorPrimary">#7F7F00</item>
         <item name="colorPrimaryVariant">#00FF00</item>
         <item name="colorOnPrimary">#0000FF</item>
@@ -29,9 +33,19 @@
 
         <item name="android:statusBarColor">#1188FF</item>
         <item name="android:navigationBarColor">#FF8811</item>
+
+        <item name="android:textColor">#FF00FF</item>
+        <item name="android:textColorPrimary">#00FFFF</item>
+        <item name="android:textColorSecondary">#F00FF0</item>
+        <item name="android:textColorTertiary">#FF3030</item>
+        <item name="android:textColorLink">#000FFF</item>
     </style>
 
     <style name="VectorMaterialThemeDebugDark" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Keep all default value -->
+    </style>
+
+    <style name="VectorMaterialThemeDebugDark.Test">
         <item name="colorPrimary">#7F7F00</item>
         <item name="colorPrimaryVariant">#00FF00</item>
         <item name="colorOnPrimary">#0000FF</item>
@@ -54,6 +68,12 @@
 
         <item name="android:statusBarColor">#1188FF</item>
         <item name="android:navigationBarColor">#FF8811</item>
+
+        <item name="android:textColor">#FF00FF</item>
+        <item name="android:textColorPrimary">#00FFFF</item>
+        <item name="android:textColorSecondary">#F00FF0</item>
+        <item name="android:textColorTertiary">#FF3030</item>
+        <item name="android:textColorLink">#000FFF</item>
     </style>
 
 </resources>
