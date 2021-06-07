@@ -85,7 +85,7 @@
             android:textSize="15sp"
             app:layout_constraintTop_toBottomOf="@id/ssss_reset_text3" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/ssss_reset_button_cancel"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
             android:text="@string/cancel"
             tools:ignore="MissingConstraints" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/ssss_reset_button_reset"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"

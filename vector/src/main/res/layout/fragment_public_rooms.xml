@@ -42,7 +42,7 @@
 
         </androidx.appcompat.widget.Toolbar>
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/publicRoomsCreateNewRoom"
             style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"

@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toStartOf="@id/failedMessagesRetryButton"
         app:layout_constraintTop_toTopOf="@id/failedMessagesRetryButton" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/failedMessagesRetryButton"
         android:layout_width="wrap_content"
         android:layout_height="48dp"

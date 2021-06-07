@@ -16,7 +16,7 @@
     <!-- TODO In the future we could add a toggle to switch the flash, and other possible settings -->
 
     <!-- TODO add take from album option.. -->
-<!--    <com.google.android.material.button.MaterialButton-->
+<!--    <Button-->
 <!--        android:id="@+id/openAlbumButton"-->
 <!--        style="@style/Widget.MaterialComponents.Button.Icon"-->
 <!--        android:layout_width="34dp"-->

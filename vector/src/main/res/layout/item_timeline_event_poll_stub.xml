@@ -34,7 +34,7 @@
 
     </LinearLayout>
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/pollButton1"
         style="@style/Style.Vector.Poll.Button"
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
         tools:text="Create Github issue"
         tools:visibility="visible" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/pollButton2"
         style="@style/Style.Vector.Poll.Button"
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         tools:text="Search Github"
         tools:visibility="visible" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/pollButton3"
         style="@style/Style.Vector.Poll.Button"
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
         tools:text="Logout"
         tools:visibility="visible" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/pollButton4"
         style="@style/Style.Vector.Poll.Button"
         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
         tools:text="Option 4"
         tools:visibility="visible" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/pollButton5"
         style="@style/Style.Vector.Poll.Button"
         android:layout_width="match_parent"

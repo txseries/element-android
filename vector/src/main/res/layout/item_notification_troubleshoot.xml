@@ -57,7 +57,7 @@
         tools:text="@string/settings_troubleshoot_test_device_settings_failed"
         tools:visibility="visible" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/troubleshootTestButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

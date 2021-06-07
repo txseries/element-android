@@ -181,7 +181,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/loginServerIKnowMyIdSubmit"
                 style="@style/Style.Vector.Login.Button.Text"
                 android:layout_width="0dp"

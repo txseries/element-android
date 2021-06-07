@@ -57,7 +57,7 @@
                 android:visibility="invisible"
                 tools:visibility="visible" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/loginServerUrlFormSubmit"
                 style="@style/Style.Vector.Login.Button"
                 android:layout_width="wrap_content"

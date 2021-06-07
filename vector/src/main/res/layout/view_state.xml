@@ -34,7 +34,7 @@
             android:textSize="16sp"
             tools:text="Une erreur est survenue" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/errorRetryView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

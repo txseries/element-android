@@ -81,7 +81,7 @@
         <!--        -->
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/ssss_key_use_file"
             style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
             android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
             app:icon="@drawable/ic_file"
             tools:ignore="MissingConstraints" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/ssss_key_submit"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"

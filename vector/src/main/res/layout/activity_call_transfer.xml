@@ -65,7 +65,7 @@
                 android:ellipsize="end"
                 android:text="@string/call_transfer_consult_first" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/callTransferConnectAction"
                 style="@style/VectorButtonStyleText"
                 android:layout_width="wrap_content"

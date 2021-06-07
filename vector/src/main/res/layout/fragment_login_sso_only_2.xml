@@ -22,7 +22,7 @@
                 tools:ignore="UnknownId"
                 tools:text="@string/login_connect_to" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/loginSignupSigninSubmit"
                 style="@style/Style.Vector.Login.Button"
                 android:layout_width="wrap_content"

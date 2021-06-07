@@ -27,7 +27,7 @@
         tools:drawableTint="?colorError"
         tools:text="foo@bar.test" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/settings_item_button"
         style="@style/VectorButtonStyleText"
         android:layout_width="wrap_content"

@@ -72,7 +72,7 @@
             app:layout_constraintTop_toBottomOf="@+id/homeDrawerUsernameView"
             tools:text="@sample/users.json/data/id" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/homeDrawerQRCodeButton"
             style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="34dp"
@@ -96,7 +96,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/homeDrawerUsernameView" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/homeDrawerInviteFriendButton"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"

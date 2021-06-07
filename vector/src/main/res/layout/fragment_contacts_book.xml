@@ -80,7 +80,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.checkbox.MaterialCheckBox
+        <CheckBox
             android:id="@+id/phoneBookOnlyBoundContacts"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
             app:layout_constraintTop_toBottomOf="@+id/phoneBookFilterContainer"
             tools:visibility="visible" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/phoneBookSearchForMatrixContacts"
             style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"

@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/layout_vertical_margin">
 
-                <com.google.android.material.button.MaterialButton
+                <Button
                     android:id="@+id/forgetPasswordButton"
                     style="@style/Style.Vector.Login.Button.Text"
                     android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
                     android:paddingEnd="0dp"
                     android:text="@string/auth_forgot_password" />
 
-                <com.google.android.material.button.MaterialButton
+                <Button
                     android:id="@+id/loginSubmit"
                     style="@style/Style.Vector.Login.Button"
                     android:layout_width="wrap_content"

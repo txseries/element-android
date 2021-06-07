@@ -95,7 +95,7 @@
         android:gravity="end"
         android:orientation="horizontal">
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/widgetPermissionDecline"
             style="@style/VectorButtonStyleDestructive"
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             android:text="@string/decline"
             android:textAllCaps="true" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/widgetPermissionContinue"
             style="@style/VectorButtonStylePositive"
             android:layout_width="wrap_content"

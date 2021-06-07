@@ -166,7 +166,7 @@
             app:layout_constraintStart_toStartOf="@id/showUserCodeCard"
             app:layout_constraintTop_toBottomOf="@id/showUserCodeCard" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/showUserCodeShareButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
             app:layout_constraintTop_toBottomOf="@id/showUserCodeInfoText"
             app:layout_constraintVertical_bias="0" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/showUserCodeScanButton"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"

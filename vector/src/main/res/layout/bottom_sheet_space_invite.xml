@@ -61,7 +61,7 @@
         app:iconTint="?riotx_text_secondary"
         app:title="@string/invite_by_link" />
 
-    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--    <Button-->
     <!--        android:id="@+id/skipButton"-->
     <!--        style="@style/VectorButtonStyleOutlined"-->
     <!--        android:layout_width="match_parent"-->

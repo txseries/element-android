@@ -80,7 +80,7 @@
             tools:visibility="visible" />
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/keys_backup_setup_step3_copy_button"
             style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
             android:maxWidth="@dimen/button_max_width"
             android:text="@string/keys_backup_setup_step3_copy_button_title" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/keys_backup_setup_step3_finish_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

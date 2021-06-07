@@ -22,7 +22,7 @@
             tools:text="@string/identity_server_set_default_notice"
             tools:visibility="visible" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/identityServerSetDefaultSubmit"
             style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/identityServerSetDefaultAlternativeSubmit"
             style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"

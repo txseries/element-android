@@ -308,14 +308,14 @@
                 android:layout_height="wrap_content"
                 android:text="Buttons" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Classic"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -323,14 +323,14 @@
                 android:text="Classic Disabled"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="OutlinedButton"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -338,14 +338,14 @@
                 android:text="OutlinedButton Disabled"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextButton"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -353,14 +353,14 @@
                 android:text="TextButton Disabled"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="UnelevatedButton"
                 app:icon="@drawable/ic_settings_x" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -373,35 +373,35 @@
                 android:layout_height="wrap_content"
                 android:text="Actions" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/debugShowSnackbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Show Snackbar" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/debugShowToast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Show Toast" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/debugShowDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Show Dialog" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/debugShowBottomSheet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="Show Bottom Sheet" />
 
-            <com.google.android.material.checkbox.MaterialCheckBox
+            <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Material CheckBox" />

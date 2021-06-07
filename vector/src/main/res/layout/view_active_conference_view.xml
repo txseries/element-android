@@ -24,7 +24,7 @@
         tools:text="@string/ongoing_conference_call"
         app:drawableStartCompat="@drawable/ic_call_answer" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/deleteWidgetButton"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"

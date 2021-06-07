@@ -92,7 +92,7 @@
             app:layout_constraintTop_toBottomOf="@id/passwordContainer"
             tools:visibility="visible" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/reAuthConfirmButton"
             style="@style/VectorButtonStylePositive"
             android:layout_width="wrap_content"

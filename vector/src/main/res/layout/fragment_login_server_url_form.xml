@@ -91,7 +91,7 @@
                 android:textAppearance="@style/TextAppearance.Vector.Login.Text.Small"
                 tools:text="@string/login_server_url_form_common_notice" />
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/loginServerUrlFormSubmit"
                 style="@style/Style.Vector.Login.Button"
                 android:layout_width="match_parent"

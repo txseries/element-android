@@ -42,7 +42,7 @@
             tools:inputType="textPassword" />
 
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/bootstrapMigrateUseFile"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
         app:layout_constraintTop_toTopOf="@+id/bootstrapRecoveryKeyEnterTil"
         app:tint="?colorAccent" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/bootstrapMigrateContinueButton"
         style="@style/VectorButtonStyleText"
         android:layout_width="wrap_content"
