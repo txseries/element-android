@@ -32,6 +32,6 @@
         android:minWidth="48dp"
         android:text="@string/active_widget_view_action"
         android:textAllCaps="true"
-        android:textColor="?attr/colorAccent" />
+        android:textColor="?colorSecondary" />
 
 </merge>

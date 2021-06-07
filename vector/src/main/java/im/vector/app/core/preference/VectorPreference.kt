@@ -116,7 +116,7 @@ open class VectorPreference : Preference {
             currentHighlightAnimator?.cancel()
             if (isHighlighted) {
                 val colorFrom = Color.TRANSPARENT
-                val colorTo = ThemeUtils.getColor(itemView.context, R.attr.colorAccent)
+                val colorTo = ThemeUtils.getColor(itemView.context, R.attr.colorPrimary)
                 currentHighlightAnimator = ValueAnimator.ofObject(ArgbEvaluator(), colorFrom, colorTo).apply {
                     duration = 250 // milliseconds
                     addUpdateListener { animator ->

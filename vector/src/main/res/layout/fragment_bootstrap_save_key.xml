@@ -46,7 +46,7 @@
         app:actionTitle="@string/action_copy"
         app:leftIcon="@drawable/ic_clipboard"
         app:rightIcon="@drawable/ic_arrow_right"
-        app:tint="?colorAccent" />
+        app:tint="?colorSecondary" />
 
     <View
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
         app:actionTitle="@string/keys_backup_setup_step3_save_button_title"
         app:leftIcon="@drawable/ic_download"
         app:rightIcon="@drawable/ic_arrow_right"
-        app:tint="?colorAccent" />
+        app:tint="?colorSecondary" />
 
     <View
         android:layout_width="match_parent"
@@ -76,7 +76,7 @@
         app:actionTitle="@string/_continue"
         app:forceStartPadding="true"
         app:rightIcon="@drawable/ic_arrow_right"
-        app:tint="?colorAccent" />
+        app:tint="?colorSecondary" />
 
     <View
         android:layout_width="match_parent"

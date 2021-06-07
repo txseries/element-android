@@ -53,13 +53,13 @@ fun TextView.setTextOrHide(newText: CharSequence?, hideWhenBlank: Boolean = true
  * Set text with a colored part
  * @param fullTextRes the resource id of the full text. Value MUST contains a parameter for string, which will be replaced by the colored part
  * @param coloredTextRes the resource id of the colored part of the text
- * @param colorAttribute attribute of the color. Default to colorAccent
+ * @param colorAttribute attribute of the color. Default to colorPrimary
  * @param underline true to also underline the text. Default to false
  * @param onClick attributes to handle click on the colored part if needed
  */
 fun TextView.setTextWithColoredPart(@StringRes fullTextRes: Int,
                                     @StringRes coloredTextRes: Int,
-                                    @AttrRes colorAttribute: Int = R.attr.colorAccent,
+                                    @AttrRes colorAttribute: Int = R.attr.colorPrimary,
                                     underline: Boolean = false,
                                     onClick: (() -> Unit)? = null) {
     val coloredPart = resources.getString(coloredTextRes)

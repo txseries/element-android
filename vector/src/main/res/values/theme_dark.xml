@@ -45,9 +45,6 @@
         <item name="android:colorBackground">@color/element_background_dark</item>
         <item name="colorOnBackground">?riotx_text_primary</item>
 
-        <!-- Keep color accent for legacy widget-->
-        <item name="colorAccent">@color/element_accent_dark</item>
-
         <item name="materialButtonStyle">@style/VectorButtonStyle</item>
         <item name="toolbarStyle">@style/VectorToolbarStyle</item>
         <item name="materialAlertDialogTheme">@style/VectorAlertDialogStyleDark</item>
@@ -61,7 +58,7 @@
         <item name="android:textColorLink">@color/element_link_dark</item>
 
         <!-- Menu text color -->
-        <item name="android:actionMenuTextColor">?colorAccent</item>
+        <item name="android:actionMenuTextColor">?colorSecondary</item>
 
         <!-- default background color -->
         <item name="riotx_bottom_nav_background_border_color">@color/riotx_bottom_nav_background_border_color_dark</item>

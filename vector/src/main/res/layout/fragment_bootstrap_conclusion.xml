@@ -39,7 +39,7 @@
         app:actionTitle="@string/finish"
         app:forceStartPadding="false"
         app:rightIcon="@drawable/ic_arrow_right"
-        app:tint="?colorAccent" />
+        app:tint="?colorSecondary" />
 
     <View
         android:layout_width="match_parent"

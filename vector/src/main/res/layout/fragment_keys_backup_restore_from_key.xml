@@ -72,7 +72,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/key_input_layout"
             app:layout_constraintTop_toTopOf="@id/key_input_layout"
-            app:tint="?attr/colorAccent"
+            app:tint="?colorSecondary"
             tools:ignore="MissingPrefix" />
 
         <TextView

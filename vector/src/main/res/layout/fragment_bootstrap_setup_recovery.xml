@@ -32,7 +32,7 @@
         android:minHeight="50dp"
         app:actionTitle="@string/bottom_sheet_setup_secure_backup_submit"
         app:rightIcon="@drawable/ic_arrow_right"
-        app:tint="?colorAccent" />
+        app:tint="?colorSecondary" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton
         android:id="@+id/bootstrapSetupSecureUseSecurityKey"

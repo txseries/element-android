@@ -70,7 +70,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/keys_backup_passphrase_enter_til"
             app:layout_constraintTop_toTopOf="@+id/keys_backup_passphrase_enter_til"
-            app:tint="?colorAccent" />
+            app:tint="?colorSecondary" />
 
         <TextView
             android:id="@+id/helperTextWithLink"

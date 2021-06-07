@@ -51,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/importDialogTil"
         app:layout_constraintTop_toTopOf="@id/importDialogTil"
-        app:tint="?attr/colorAccent" />
+        app:tint="?colorSecondary" />
 
     <Button
         android:id="@+id/dialog_e2e_keys_import_button"

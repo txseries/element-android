@@ -69,6 +69,6 @@
     <!--        android:layout_marginTop="@dimen/layout_vertical_margin"-->
     <!--        android:text="@string/skip_for_now"-->
     <!--        android:textAllCaps="true"-->
-    <!--        android:textColor="?colorAccent" />-->
+    <!--        android:textColor="?colorSecondary" />-->
 
 </LinearLayout>

@@ -140,7 +140,7 @@ class SpacePeopleListController @Inject constructor(
                             +host.stringProvider.getString(R.string.looking_for_someone_not_in_space, data.roomSummary.invoke()?.displayName ?: "")
                             +"\n"
                             span("Invite them") {
-                                textColor = host.colorProvider.getColorFromAttribute(R.attr.colorAccent)
+                                textColor = host.colorProvider.getColorFromAttribute(R.attr.colorPrimary)
                                 textStyle = "bold"
                             }
                         }

@@ -18,7 +18,7 @@ package im.vector.app.features.form
 
 import android.text.Editable
 import android.view.View
-import androidx.appcompat.widget.AppCompatButton
+import android.widget.Button
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.google.android.material.textfield.TextInputEditText
@@ -84,6 +84,6 @@ abstract class FormEditTextWithButtonItem : VectorEpoxyModel<FormEditTextWithBut
     class Holder : VectorEpoxyHolder() {
         val textInputLayout by bind<TextInputLayout>(R.id.formTextInputTextInputLayout)
         val textInputEditText by bind<TextInputEditText>(R.id.formTextInputTextInputEditText)
-        val textInputButton by bind<AppCompatButton>(R.id.formTextInputButton)
+        val textInputButton by bind<Button>(R.id.formTextInputButton)
     }
 }

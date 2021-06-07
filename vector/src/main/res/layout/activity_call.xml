@@ -131,7 +131,7 @@
         android:layout_height="48dp"
         android:layout_margin="8dp"
         android:gravity="center"
-        android:textColor="?attr/colorAccent"
+        android:textColor="?colorSecondary"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

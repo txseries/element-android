@@ -117,7 +117,7 @@ abstract class SettingsTextButtonSingleLineItem : EpoxyModelWithHolder<SettingsT
                     holder.switchButton.isVisible = false
                     when (buttonStyle) {
                         ButtonStyle.POSITIVE    -> {
-                            holder.mainButton.setTextColor(colorProvider.getColorFromAttribute(R.attr.colorAccent))
+                            holder.mainButton.setTextColor(colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                         }
                         ButtonStyle.DESTRUCTIVE -> {
                             holder.mainButton.setTextColor(colorProvider.getColorFromAttribute(R.attr.colorError))

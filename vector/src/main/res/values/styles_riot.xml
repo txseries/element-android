@@ -33,7 +33,7 @@
     </style>
 
     <style name="Vector.Toolbar.Profile" parent="@style/ThemeOverlay.AppCompat.ActionBar">
-        <item name="colorControlNormal">?attr/colorAccent</item>
+        <item name="colorControlNormal">?colorSecondary</item>
     </style>
 
     <style name="VectorAppBarLayoutStyle" parent="Widget.MaterialComponents.AppBarLayout.Primary">
@@ -168,22 +168,21 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:background">@null</item>
-        <item name="android:textColor">?colorAccent</item>
-        <item name="colorControlHighlight">?colorAccent</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="colorControlHighlight">?colorSecondary</item>
     </style>
 
     <style name="VectorButtonStyleOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:background">@null</item>
-        <item name="android:textColor">?colorAccent</item>
-        <item name="colorControlHighlight">?colorAccent</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="colorControlHighlight">?colorSecondary</item>
         <item name="strokeColor">@color/button_background_tint_selector</item>
         <item name="strokeWidth">1dp</item>
     </style>
 
     <style name="AlerterButton" parent="Widget.AppCompat.Button.Borderless.Colored">
-        <item name="colorAccent">@android:color/white</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>

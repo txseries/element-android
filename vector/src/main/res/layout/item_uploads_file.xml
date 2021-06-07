@@ -61,7 +61,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/uploadsFileActionShare"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="?colorAccent"
+        app:tint="?colorSecondary"
         tools:ignore="MissingPrefix" />
 
     <ImageView
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="?colorAccent"
+        app:tint="?colorSecondary"
         tools:ignore="MissingPrefix" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
