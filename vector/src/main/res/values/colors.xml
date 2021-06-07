@@ -9,13 +9,6 @@
     <color name="soft_resource_limit_exceeded">#2f9edb</color>
     <color name="hard_resource_limit_exceeded">?colorError</color>
 
-    <!-- Password Strength bar colors -->
-    <color name="password_strength_bar_weak">#FFF56679</color>
-    <color name="password_strength_bar_low">#FFFFC666</color>
-    <color name="password_strength_bar_ok">#FFF8E71C</color>
-    <color name="password_strength_bar_strong">#FF7AC9A1</color>
-    <color name="password_strength_bar_undefined">#FF9E9E9E</color>
-
     <!-- Button color -->
     <color name="button_enabled_text_color">#FFFFFFFF</color>
     <color name="button_disabled_text_color">#FFFFFFFF</color>
