@@ -36,7 +36,7 @@
 
     <Button
         android:id="@+id/pollButton1"
-        style="@style/Style.Vector.Poll.Button"
+        style="@style/VectorButtonStyleOutlined.Poll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/pollButton2"
-        style="@style/Style.Vector.Poll.Button"
+        style="@style/VectorButtonStyleOutlined.Poll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -54,7 +54,7 @@
 
     <Button
         android:id="@+id/pollButton3"
-        style="@style/Style.Vector.Poll.Button"
+        style="@style/VectorButtonStyleOutlined.Poll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -63,7 +63,7 @@
 
     <Button
         android:id="@+id/pollButton4"
-        style="@style/Style.Vector.Poll.Button"
+        style="@style/VectorButtonStyleOutlined.Poll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/pollButton5"
-        style="@style/Style.Vector.Poll.Button"
+        style="@style/VectorButtonStyleOutlined.Poll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
