@@ -61,13 +61,13 @@
         android:text="Destructive disabled" />
 
     <Button
-        style="@style/VectorButtonStyle.Bot"
+        style="@style/VectorButtonStyleUnelevated.Bot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bot" />
 
     <Button
-        style="@style/VectorButtonStyle.Bot"
+        style="@style/VectorButtonStyleUnelevated.Bot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="false"
