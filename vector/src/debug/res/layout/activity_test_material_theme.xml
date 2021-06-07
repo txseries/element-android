@@ -433,7 +433,6 @@
                 android:src="@drawable/ic_settings_x" />
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/bottomNavigationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:menu="@menu/home_bottom_navigation" />
