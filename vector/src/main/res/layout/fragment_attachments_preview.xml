@@ -17,7 +17,6 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/attachmentPreviewerToolbar"
-        style="@style/VectorToolbarStyle"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#40000000"

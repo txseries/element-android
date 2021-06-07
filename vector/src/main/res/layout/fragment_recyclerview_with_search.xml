@@ -24,7 +24,6 @@
         <!-- minHeight="0dp" is important to collapse on scroll -->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/addRoomToSpaceToolbar"
-            style="@style/VectorToolbarStyle"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:elevation="4dp"

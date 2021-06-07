@@ -13,7 +13,6 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/roomPreviewNoPreviewToolbar"
-            style="@style/VectorToolbarStyle"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:elevation="4dp"
