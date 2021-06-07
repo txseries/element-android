@@ -36,7 +36,7 @@
         <item name="colorControlNormal">?attr/colorAccent</item>
     </style>
 
-    <style name="VectorAppBarLayoutStyle" parent="Widget.Design.AppBarLayout">
+    <style name="VectorAppBarLayoutStyle" parent="Widget.MaterialComponents.AppBarLayout.Primary">
         <item name="android:background">?android:colorBackground</item>
     </style>
 

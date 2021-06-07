@@ -55,6 +55,9 @@
         <!-- Default style for text input -->
         <item name="textInputStyle">@style/VectorTextInputLayout</item>
 
+        <!-- Default style for AppBarLayout -->
+        <item name="appBarLayoutStyle">@style/VectorAppBarLayoutStyle</item>
+
         <item name="android:textColorLink">@color/element_link_light</item>
 
         <!-- Menu text color -->
