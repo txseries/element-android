@@ -25,7 +25,6 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/loginFieldTil"
-                style="@style/VectorTextInputLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
@@ -49,7 +48,6 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/passwordFieldTil"
-                    style="@style/VectorTextInputLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_signup_password_hint"

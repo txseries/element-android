@@ -52,6 +52,9 @@
         <item name="toolbarStyle">@style/VectorToolbarStyle</item>
         <item name="materialAlertDialogTheme">@style/VectorAlertDialogStyleDark</item>
 
+        <!-- Default style for text input -->
+        <item name="textInputStyle">@style/VectorTextInputLayout</item>
+
         <item name="android:textColorLink">@color/element_link_dark</item>
 
         <!-- Menu text color -->

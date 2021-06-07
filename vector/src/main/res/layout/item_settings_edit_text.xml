@@ -22,7 +22,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/settings_item_edit_text_til"
-        style="@style/VectorTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:errorEnabled="true"

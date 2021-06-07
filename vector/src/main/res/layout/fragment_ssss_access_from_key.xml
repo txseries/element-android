@@ -54,7 +54,6 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/ssss_key_enter_til"
-            style="@style/VectorTextInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
