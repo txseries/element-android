@@ -97,7 +97,7 @@
 
         <Button
             android:id="@+id/widgetPermissionDecline"
-            style="@style/VectorButtonStyleDestructive"
+            style="@style/VectorButtonStyle.Destructive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/layout_vertical_margin"
@@ -106,7 +106,7 @@
 
         <Button
             android:id="@+id/widgetPermissionContinue"
-            style="@style/VectorButtonStylePositive"
+            style="@style/VectorButtonStyle.Positive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/layout_vertical_margin"

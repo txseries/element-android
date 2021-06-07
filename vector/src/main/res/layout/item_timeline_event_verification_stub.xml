@@ -44,7 +44,7 @@
 
         <Button
             android:id="@+id/sas_verification_verified_decline_button"
-            style="@style/VectorButtonStyleDestructive"
+            style="@style/VectorButtonStyle.Destructive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -52,7 +52,7 @@
 
         <Button
             android:id="@+id/sas_verification_verified_accept_button"
-            style="@style/VectorButtonStylePositive"
+            style="@style/VectorButtonStyle.Positive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/accept" />

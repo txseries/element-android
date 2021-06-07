@@ -81,7 +81,7 @@
 
         <Button
             android:id="@+id/ssss_key_use_file"
-            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/use_file"
@@ -90,7 +90,7 @@
 
         <Button
             android:id="@+id/ssss_key_submit"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/_continue"

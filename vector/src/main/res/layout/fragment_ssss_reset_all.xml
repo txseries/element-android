@@ -87,7 +87,7 @@
 
         <Button
             android:id="@+id/ssss_reset_button_cancel"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cancel"
@@ -95,7 +95,7 @@
 
         <Button
             android:id="@+id/ssss_reset_button_reset"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/reset"

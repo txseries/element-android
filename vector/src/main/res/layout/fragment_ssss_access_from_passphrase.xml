@@ -88,7 +88,7 @@
 
         <Button
             android:id="@+id/ssss_passphrase_submit"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/layout_horizontal_margin"
@@ -110,7 +110,7 @@
 
         <Button
             android:id="@+id/ssss_passphrase_use_key"
-            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"

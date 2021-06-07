@@ -20,13 +20,13 @@
         android:paddingBottom="12dp"
         android:textColor="?colorOnPrimary"
         android:textColorLink="?colorOnPrimary"
+        app:drawableStartCompat="@drawable/ic_call_answer"
         app:drawableTint="?colorOnPrimary"
-        tools:text="@string/ongoing_conference_call"
-        app:drawableStartCompat="@drawable/ic_call_answer" />
+        tools:text="@string/ongoing_conference_call" />
 
     <Button
         android:id="@+id/deleteWidgetButton"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        style="@style/VectorButtonStyleText.OnPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/activeConferenceInfo"
@@ -34,11 +34,9 @@
         android:layout_alignParentEnd="true"
         android:clickable="false"
         android:focusable="false"
-        android:gravity="center"
         android:paddingStart="8dp"
         android:paddingEnd="16dp"
         android:text="@string/action_close"
-        android:textColor="?colorOnPrimary"
         android:textSize="15sp"
         android:textStyle="bold" />
 

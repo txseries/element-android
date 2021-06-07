@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/itemGenericItemButton"
-        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        style="@style/VectorButtonStyleText"
         android:textAllCaps="false"
         tools:icon="@drawable/ic_shield_warning"
         app:iconGravity="textStart"

@@ -182,7 +182,7 @@
 
         <Button
             android:id="@+id/showUserCodeScanButton"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/VectorButtonStyleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/layout_vertical_margin"
