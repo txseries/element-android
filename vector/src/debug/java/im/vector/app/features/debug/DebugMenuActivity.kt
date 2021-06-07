@@ -71,6 +71,9 @@ class DebugMenuActivity : VectorBaseActivity<ActivityDebugMenuBinding>() {
 
     private fun setupViews() {
         views.debugTestTextViewLink.setOnClickListener { testTextViewLink() }
+        views.debugOpenButtonStyles.setOnClickListener {
+            startActivity(Intent(this, DebugVectorButtonStylesActivity::class.java))
+        }
         views.debugShowSasEmoji.setOnClickListener { showSasEmoji() }
         views.debugTestNotification.setOnClickListener { testNotification() }
         views.debugTestMaterialThemeLightDefault.setOnClickListener {
