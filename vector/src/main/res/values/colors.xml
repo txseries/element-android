@@ -10,8 +10,6 @@
     <color name="hard_resource_limit_exceeded">?colorError</color>
 
     <!-- Button color -->
-    <color name="button_enabled_text_color">#FFFFFFFF</color>
-    <color name="button_disabled_text_color">#FFFFFFFF</color>
     <color name="button_destructive_enabled_text_color">#FF4B55</color>
     <color name="button_destructive_disabled_text_color">#FF4B55</color>
     <color name="button_bot_enabled_text_color">#FF368BD6</color>
