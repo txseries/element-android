@@ -70,7 +70,6 @@
                 android:imeOptions="actionDone"
                 android:maxLines="3"
                 android:singleLine="false"
-                android:textColor="?android:textColorPrimary"
                 tools:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>

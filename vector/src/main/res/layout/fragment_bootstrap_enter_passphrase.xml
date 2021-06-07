@@ -34,7 +34,6 @@
             android:imeOptions="actionDone"
             android:maxLines="3"
             android:singleLine="false"
-            android:textColor="?android:textColorPrimary"
             tools:hint="@string/passphrase_enter_passphrase"
             tools:inputType="textPassword" />
 

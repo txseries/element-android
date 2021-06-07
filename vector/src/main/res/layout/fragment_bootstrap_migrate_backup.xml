@@ -36,10 +36,8 @@
             android:imeOptions="actionDone"
             android:maxLines="3"
             android:singleLine="false"
-            android:textColor="?android:textColorPrimary"
             tools:hint="@string/keys_backup_restore_key_enter_hint"
             tools:inputType="textPassword" />
-
 
         <Button
             android:id="@+id/bootstrapMigrateUseFile"

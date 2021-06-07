@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
-        android:textColor="?android:textColorPrimary"
+        android:textColor="?riotx_text_primary"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/settings_item_button"
