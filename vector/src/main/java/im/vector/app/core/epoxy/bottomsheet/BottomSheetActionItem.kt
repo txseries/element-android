@@ -95,9 +95,9 @@ abstract class BottomSheetActionItem : VectorEpoxyModel<BottomSheetActionItem.Ho
         holder.selected.isInvisible = !selected
         if (showExpand) {
             val expandDrawable = if (expanded) {
-                ContextCompat.getDrawable(holder.view.context, R.drawable.ic_material_expand_less_black)
+                ContextCompat.getDrawable(holder.view.context, R.drawable.ic_expand_less)
             } else {
-                ContextCompat.getDrawable(holder.view.context, R.drawable.ic_material_expand_more_black)
+                ContextCompat.getDrawable(holder.view.context, R.drawable.ic_expand_more)
             }
             expandDrawable?.also {
                 DrawableCompat.setTint(it, tintColor)

@@ -34,6 +34,7 @@
         android:contentDescription="@string/action_close"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
-        android:src="@drawable/ic_clear_white" />
+        android:src="@drawable/ic_close_24dp"
+        app:tint="?colorOnPrimary" />
 
 </merge>

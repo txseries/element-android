@@ -101,14 +101,13 @@
         android:background="?selectableItemBackground"
         android:clickable="true"
         android:importantForAccessibility="no"
-        android:src="@drawable/ic_expand_less_white"
+        android:src="@drawable/ic_expand_less"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/groupBottomSeparator"
         app:layout_constraintEnd_toStartOf="@+id/groupTmpLeave"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="?riotx_text_primary"
         tools:ignore="MissingPrefix"
-        tools:src="@drawable/ic_expand_more_white"
         tools:visibility="visible" />
 
     <ImageView

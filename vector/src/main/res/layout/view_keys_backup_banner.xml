@@ -106,10 +106,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/a11y_close_keys_backup_banner"
-        android:src="@drawable/ic_small_close"
+        android:src="@drawable/ic_close_24dp"
         app:layout_constraintEnd_toEndOf="@id/view_keys_backup_banner_close"
         app:layout_constraintStart_toStartOf="@id/view_keys_backup_banner_close"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?riotx_text_secondary" />
 
     <View
         android:layout_width="match_parent"

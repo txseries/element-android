@@ -20,7 +20,7 @@
         android:layout_marginStart="24dp"
         android:importantForAccessibility="no"
         android:padding="5dp"
-        tools:src="@drawable/vector_typing" />
+        tools:src="@drawable/error" />
 
     <TextView
         android:id="@+id/roomNotificationMessage"

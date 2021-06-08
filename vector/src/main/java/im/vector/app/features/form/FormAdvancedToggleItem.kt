@@ -36,7 +36,7 @@ abstract class FormAdvancedToggleItem : VectorEpoxyModel<FormAdvancedToggleItem.
     override fun bind(holder: Holder) {
         super.bind(holder)
         val tintColor = ThemeUtils.getColor(holder.view.context, R.attr.riotx_text_secondary)
-        val expandedArrowDrawableRes = if (expanded) R.drawable.ic_expand_more_white else R.drawable.ic_expand_less_white
+        val expandedArrowDrawableRes = if (expanded) R.drawable.ic_expand_more else R.drawable.ic_expand_less
         val expandedArrowDrawable = ContextCompat.getDrawable(holder.view.context, expandedArrowDrawableRes)?.also {
             DrawableCompat.setTint(it, tintColor)
         }
