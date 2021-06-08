@@ -315,10 +315,15 @@
     <color name="riotx_message_composer_attachment_button_color_dark">#FFA9B2BC</color>
     <color name="riotx_message_composer_attachment_button_color_black">#FFA9B2BC</color>
 
+    <attr name="riotx_message_composer_attachment_button_fg_color" format="color" />
+    <color name="riotx_message_composer_attachment_button_fg_color_light">#FF737D8C</color>
+    <color name="riotx_message_composer_attachment_button_fg_color_dark">#FF394049</color>
+    <color name="riotx_message_composer_attachment_button_fg_color_black">#FF394049</color>
+
     <attr name="riotx_message_composer_emoji_button_color" format="color" />
-    <color name="riotx_message_composer_emoji_button_color_light">#FF8D99A5</color>
-    <color name="riotx_message_composer_emoji_button_color_dark">#FFA9B2BC</color>
-    <color name="riotx_message_composer_emoji_button_color_black">#FFA9B2BC</color>
+    <color name="riotx_message_composer_emoji_button_color_light">#FFC1C6CD</color>
+    <color name="riotx_message_composer_emoji_button_color_dark">#FFC1C6CD</color>
+    <color name="riotx_message_composer_emoji_button_color_black">#FFC1C6CD</color>
 
     <attr name="riotx_message_composer_keyboard_button_color" format="color" />
     <color name="riotx_message_composer_keyboard_button_color_light">#C1C6CD</color>

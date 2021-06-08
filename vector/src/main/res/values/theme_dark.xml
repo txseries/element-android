@@ -184,6 +184,7 @@
 
 
         <item name="riotx_message_composer_attachment_button_color">@color/riotx_message_composer_attachment_button_color_dark</item>
+        <item name="riotx_message_composer_attachment_button_fg_color">@color/riotx_message_composer_attachment_button_fg_color_dark</item>
         <item name="riotx_message_composer_emoji_button_color">@color/riotx_message_composer_emoji_button_color_dark</item>
     </style>
 
