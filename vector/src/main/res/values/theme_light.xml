@@ -143,7 +143,7 @@
         <item name="vctr_social_login_button_gitlab_style">@style/WidgetButtonSocialLogin.Gitlab.Light</item>
 
         <!-- chat effect -->
-        <item name="vctr_chat_effect_snow_background">@color/black_alpha</item>
+        <item name="vctr_chat_effect_snow_background">@color/vctr_chat_effect_snow_background_light</item>
 
         <item name="actionModeStyle">@style/ActionModeTheme</item>
     </style>

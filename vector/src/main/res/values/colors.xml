@@ -174,4 +174,8 @@
     <color name="riotx_keys_backup_banner_accent_color_light">#FFF8E3</color>
     <color name="riotx_keys_backup_banner_accent_color_dark">#22262E</color>
 
+    <attr name="vctr_chat_effect_snow_background" format="color" />
+    <color name="vctr_chat_effect_snow_background_light">@color/black_alpha</color>
+    <color name="vctr_chat_effect_snow_background_dark">@android:color/transparent</color>
+
 </resources>

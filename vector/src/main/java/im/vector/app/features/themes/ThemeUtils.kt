@@ -174,25 +174,6 @@ object ThemeUtils {
     }
 
     /**
-     * Update the menu icons colors
-     *
-     * @param menu  the menu
-     * @param color the color
-     */
-    fun tintMenuIcons(menu: Menu, color: Int) {
-        for (i in 0 until menu.size()) {
-            val item = menu.getItem(i)
-            val drawable = item.icon
-            if (drawable != null) {
-                val wrapped = DrawableCompat.wrap(drawable)
-                drawable.mutate()
-                DrawableCompat.setTint(wrapped, color)
-                item.icon = drawable
-            }
-        }
-    }
-
-    /**
      * Tint the drawable with a theme attribute
      *
      * @param context   the context

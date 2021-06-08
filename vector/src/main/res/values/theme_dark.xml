@@ -141,7 +141,7 @@
         <item name="vctr_social_login_button_gitlab_style">@style/WidgetButtonSocialLogin.Gitlab.Dark</item>
 
         <!-- chat effect -->
-        <item name="vctr_chat_effect_snow_background">@android:color/transparent</item>
+        <item name="vctr_chat_effect_snow_background">@color/vctr_chat_effect_snow_background_dark</item>
 
         <item name="actionModeStyle">@style/ActionModeTheme</item>
     </style>
