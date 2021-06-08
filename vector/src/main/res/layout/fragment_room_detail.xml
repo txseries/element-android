@@ -197,7 +197,7 @@
         app:barrierDirection="top"
         app:constraint_referenced_ids="composerLayout,notificationAreaView, failedMessagesWarningView" />
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/activeCallPiPWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -215,7 +215,8 @@
             android:layout_height="120dp"
             android:visibility="gone"
             tools:visibility="visible" />
-    </androidx.cardview.widget.CardView>
+
+    </com.google.android.material.card.MaterialCardView>
 
     <im.vector.app.core.platform.BadgeFloatingActionButton
         android:id="@+id/jumpToBottomView"

@@ -100,3 +100,6 @@ layout_constraintLeft_
 
 ### Use colorSecondary
 colorAccent
+
+### Use MaterialCardView
+<androidx\.cardview\.widget\.CardView

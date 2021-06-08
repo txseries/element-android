@@ -77,7 +77,7 @@
             app:barrierDirection="top"
             app:constraint_referenced_ids="showUserCodeCard" />
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:id="@+id/showUserCodeCard"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/showUserCodeInfoText"

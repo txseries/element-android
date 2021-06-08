@@ -139,7 +139,7 @@
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintTop_toBottomOf="@+id/activeCallView" />
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/activeCallPiPWrap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
