@@ -269,7 +269,7 @@ class VectorSettingsSecurityPrivacyFragment @Inject constructor(
 
         secureBackupPreference.icon = activity?.let {
             ThemeUtils.tintDrawable(it,
-                    ContextCompat.getDrawable(it, R.drawable.ic_secure_backup)!!, R.attr.vctr_settings_icon_tint_color)
+                    ContextCompat.getDrawable(it, R.drawable.ic_secure_backup)!!, R.attr.riotx_text_primary)
         }
 
         findPreference<VectorPreference>(VectorPreferences.SETTINGS_CRYPTOGRAPHY_HS_ADMIN_DISABLED_E2E_DEFAULT)?.let {

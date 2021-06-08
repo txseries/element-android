@@ -79,10 +79,6 @@
         <!-- Default color for text View -->
         <item name="android:textColorTertiary">@color/riotx_text_primary_light</item>
 
-        <!-- icon colors -->
-        <item name="vctr_settings_icon_tint_color">@android:color/black</item>
-        <item name="vctr_icon_tint_on_light_action_bar_color">@color/element_accent_light</item>
-
         <!-- ANDROID SUPPORT ATTRIBUTES -->
         <!-- disable the overscroll because setOverscrollHeader/Footer don't always work -->
         <item name="android:overScrollMode">never</item>

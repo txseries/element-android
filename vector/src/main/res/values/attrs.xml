@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- icon colors -->
-    <attr name="vctr_icon_tint_on_light_action_bar_color" format="color" />
-    <attr name="vctr_settings_icon_tint_color" format="color" />
-
     <attr name="vctr_social_login_button_google_style" format="reference" />
     <attr name="vctr_social_login_button_github_style" format="reference" />
     <attr name="vctr_social_login_button_facebook_style" format="reference" />
