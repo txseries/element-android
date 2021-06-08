@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- room notification text color (typing, unsent...) -->
-    <attr name="vctr_room_notification_text_color" format="color" />
-
     <!-- icon colors -->
     <attr name="vctr_icon_tint_on_light_action_bar_color" format="color" />
     <attr name="vctr_settings_icon_tint_color" format="color" />
