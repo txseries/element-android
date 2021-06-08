@@ -22,6 +22,8 @@ import im.vector.app.core.epoxy.dividerItem
 import im.vector.app.core.epoxy.profiles.buildProfileAction
 import im.vector.app.core.epoxy.profiles.buildProfileSection
 import im.vector.app.core.resources.StringProvider
+import im.vector.app.core.ui.list.verticalMarginItem
+import im.vector.app.core.utils.DimensionConverter
 import im.vector.app.features.form.formEditTextItem
 import im.vector.app.features.form.formEditableAvatarItem
 import im.vector.app.features.form.formSwitchItem
@@ -36,6 +38,7 @@ import javax.inject.Inject
 class RoomSettingsController @Inject constructor(
         private val stringProvider: StringProvider,
         private val avatarRenderer: AvatarRenderer,
+        private val dimensionConverter: DimensionConverter,
         private val roomHistoryVisibilityFormatter: RoomHistoryVisibilityFormatter,
         private val vectorPreferences: VectorPreferences
 ) : TypedEpoxyController<RoomSettingsViewState>() {
@@ -82,6 +85,11 @@ class RoomSettingsController @Inject constructor(
                 stringProvider.getString(R.string.settings)
         )
 
+        verticalMarginItem {
+            id("margin")
+            heightInPx(host.dimensionConverter.dpToPx(16))
+        }
+
         formEditTextItem {
             id("name")
             enabled(data.actionPermissions.canChangeName)
@@ -91,9 +99,6 @@ class RoomSettingsController @Inject constructor(
             onTextChange { text ->
                 host.callback?.onNameChanged(text)
             }
-        }
-        dividerItem {
-            id("nameDivider")
         }
         formEditTextItem {
             id("topic")
@@ -109,7 +114,6 @@ class RoomSettingsController @Inject constructor(
         dividerItem {
             id("topicDivider")
         }
-
         buildProfileAction(
                 id = "historyReadability",
                 title = stringProvider.getString(R.string.room_settings_room_read_history_rules_pref_title),
@@ -123,7 +127,7 @@ class RoomSettingsController @Inject constructor(
                 id = "joinRule",
                 title = stringProvider.getString(R.string.room_settings_room_access_title),
                 subtitle = data.getJoinRuleWording(stringProvider),
-                divider = false,
+                divider = true,
                 editable = data.actionPermissions.canChangeJoinRule,
                 action = { if (data.actionPermissions.canChangeJoinRule) callback?.onJoinRuleClicked() }
         )
@@ -139,6 +143,9 @@ class RoomSettingsController @Inject constructor(
                 listener {
                     host.callback?.onToggleGuestAccess()
                 }
+            }
+            dividerItem {
+                id("guestAccessDivider")
             }
         }
     }
